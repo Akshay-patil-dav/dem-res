@@ -4,7 +4,7 @@
   border: 0.1vw solid;
   width: 22.7vw;
   height: 23vw;
-  top: 5vw;
+  top: 8vw;
   left: 0.5vw;
 }
 .b2{
@@ -20,34 +20,34 @@
   position: absolute;
   padding: 4vw;
   /* background-color: hsl(0, 100%, 50%); */
-  border: 0.3vh solid;
+  border: 0.1vh solid;
 }
 #dropBox2{
   position: absolute;
   padding: 4vw;
   /* background-color: red; */
-  border: 0.3vh solid;
+  border: 0.1vh solid;
   left: 8vw;
 }
 #dropBox3{
   position: absolute;
   padding: 4vw;
   /* background-color: red; */
-  border: 0.3vh solid;
+  border: 0.1vh solid;
   left: 16vw;
 }
 #dropBox4{
   position: absolute;
   padding: 4vw;
   /* background-color: red; */
-  border: 0.3vh solid;
+  border: 0.1vh solid;
   left: 24vw;
 }
 #dropBox5{
   position: absolute;
   padding: 4vw;
   /* background-color: red; */
-  border: 0.3vh solid;
+  border: 0.1vh solid;
   left: 32vw;
 }
 
@@ -57,14 +57,14 @@
   padding: 4vw;
   top: 8vw;
   /* background-color: hsl(0, 100%, 50%); */
-  border: 0.3vh solid;
+  border: 0.1vh solid;
 }
 #dropBox7{
   position: absolute;
   padding: 4vw;
   top: 8vw;
   /* background-color: red; */
-  border: 0.3vh solid;
+  border: 0.1vh solid;
   left: 8vw;
 }
 #dropBox8{
@@ -72,7 +72,7 @@
   padding: 4vw;
   top: 8vw;
   /* background-color: red; */
-  border: 0.3vh solid;
+  border: 0.1vh solid;
   left: 16vw;
 }
 #dropBox9{
@@ -80,7 +80,7 @@
   padding: 4vw;
   top: 8vw;
   /* background-color: red; */
-  border: 0.3vh solid;
+  border: 0.1vh solid;
   left: 24vw;
 }
 #dropBox10{
@@ -88,7 +88,7 @@
   padding: 4vw;
   top: 8vw;
   /* background-color: red; */
-  border: 0.3vh solid;
+  border: 0.1vh solid;
   left: 32vw;
 }
 
@@ -98,7 +98,7 @@
   padding: 4vw;
   top: 16vw;
   /* background-color: hsl(0, 100%, 50%); */
-  border: 0.3vh solid;
+  border: 0.1vh solid;
 }
 #dropBox12{
   position: absolute;
@@ -106,14 +106,14 @@
   top: 16vw;
   /* background-color: red; */
   border: 0.3vh solid;
-  left: 8vw;
+  left: 7.9vw;
 }
 #dropBox13{
   position: absolute;
   padding: 4vw;
   top: 16vw;
   /* background-color: red; */
-  border: 0.3vh solid;
+  border: 0.1vh solid;
   left: 16vw;
 }
 #dropBox14{
@@ -121,7 +121,7 @@
   padding: 4vw;
   top: 16vw;
   /* background-color: red; */
-  border: 0.3vh solid;
+  border: 0.1vh solid;
   left: 24vw;
 }
 #dropBox15{
@@ -129,7 +129,7 @@
   padding: 4vw;
   top: 16vw;
   /* background-color: red; */
-  border: 0.3vh solid;
+  border: 0.1vh solid;
   left: 32vw;
 }
 
@@ -139,14 +139,14 @@
   padding: 4vw;
   top: 24vw;
   /* background-color: hsl(0, 100%, 50%); */
-  border: 0.3vh solid;
+  border: 0.1vh solid;
 }
 #dropBox17{
   position: absolute;
   padding: 4vw;
   top: 24vw;
   /* background-color: red; */
-  border: 0.3vh solid;
+  border: 0.1vh solid;
   left: 8vw;
 }
 #dropBox18{
@@ -154,7 +154,7 @@
   padding: 4vw;
   top: 24vw;
   /* background-color: red; */
-  border: 0.3vh solid;
+  border: 0.1vh solid;
   left: 16vw;
 }
 #dropBox19{
@@ -162,7 +162,7 @@
   padding: 4vw;
   top: 24vw;
   /* background-color: red; */
-  border: 0.3vh solid;
+  border: 0.1vh solid;
   left: 24vw;
 }
 #dropBox20{
@@ -170,6 +170,15 @@
   padding: 4vw;
   top: 24vw;
   /* background-color: red; */
-  border: 0.3vh solid;
+  border: 0.1vh solid;
   left: 32vw;
+}
+
+
+#chartlagn{
+  position: absolute;
+  top: 5vw;
+  font-size: 2vw;
+  left: 0.5vw;
+
 }
