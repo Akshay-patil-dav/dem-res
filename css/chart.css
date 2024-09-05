@@ -1,0 +1,175 @@
+#arrayDisplay{
+  position: absolute;
+  overflow: hidden;
+  border: 0.1vw solid;
+  width: 22.7vw;
+  height: 23vw;
+  top: 5vw;
+  left: 0.5vw;
+}
+.b2{
+  position: absolute;
+  rotate: 45deg;
+  left: 5.7vw;
+  /* top: 1vw; */
+  bottom: 40vw;
+
+}
+
+#dropBox1{
+  position: absolute;
+  padding: 4vw;
+  /* background-color: hsl(0, 100%, 50%); */
+  border: 0.3vh solid;
+}
+#dropBox2{
+  position: absolute;
+  padding: 4vw;
+  /* background-color: red; */
+  border: 0.3vh solid;
+  left: 8vw;
+}
+#dropBox3{
+  position: absolute;
+  padding: 4vw;
+  /* background-color: red; */
+  border: 0.3vh solid;
+  left: 16vw;
+}
+#dropBox4{
+  position: absolute;
+  padding: 4vw;
+  /* background-color: red; */
+  border: 0.3vh solid;
+  left: 24vw;
+}
+#dropBox5{
+  position: absolute;
+  padding: 4vw;
+  /* background-color: red; */
+  border: 0.3vh solid;
+  left: 32vw;
+}
+
+
+#dropBox6{
+  position: absolute;
+  padding: 4vw;
+  top: 8vw;
+  /* background-color: hsl(0, 100%, 50%); */
+  border: 0.3vh solid;
+}
+#dropBox7{
+  position: absolute;
+  padding: 4vw;
+  top: 8vw;
+  /* background-color: red; */
+  border: 0.3vh solid;
+  left: 8vw;
+}
+#dropBox8{
+  position: absolute;
+  padding: 4vw;
+  top: 8vw;
+  /* background-color: red; */
+  border: 0.3vh solid;
+  left: 16vw;
+}
+#dropBox9{
+  position: absolute;
+  padding: 4vw;
+  top: 8vw;
+  /* background-color: red; */
+  border: 0.3vh solid;
+  left: 24vw;
+}
+#dropBox10{
+  position: absolute;
+  padding: 4vw;
+  top: 8vw;
+  /* background-color: red; */
+  border: 0.3vh solid;
+  left: 32vw;
+}
+
+
+#dropBox11{
+  position: absolute;
+  padding: 4vw;
+  top: 16vw;
+  /* background-color: hsl(0, 100%, 50%); */
+  border: 0.3vh solid;
+}
+#dropBox12{
+  position: absolute;
+  padding: 4vw;
+  top: 16vw;
+  /* background-color: red; */
+  border: 0.3vh solid;
+  left: 8vw;
+}
+#dropBox13{
+  position: absolute;
+  padding: 4vw;
+  top: 16vw;
+  /* background-color: red; */
+  border: 0.3vh solid;
+  left: 16vw;
+}
+#dropBox14{
+  position: absolute;
+  padding: 4vw;
+  top: 16vw;
+  /* background-color: red; */
+  border: 0.3vh solid;
+  left: 24vw;
+}
+#dropBox15{
+  position: absolute;
+  padding: 4vw;
+  top: 16vw;
+  /* background-color: red; */
+  border: 0.3vh solid;
+  left: 32vw;
+}
+
+
+#dropBox16{
+  position: absolute;
+  padding: 4vw;
+  top: 24vw;
+  /* background-color: hsl(0, 100%, 50%); */
+  border: 0.3vh solid;
+}
+#dropBox17{
+  position: absolute;
+  padding: 4vw;
+  top: 24vw;
+  /* background-color: red; */
+  border: 0.3vh solid;
+  left: 8vw;
+}
+#dropBox18{
+  position: absolute;
+  padding: 4vw;
+  top: 24vw;
+  /* background-color: red; */
+  border: 0.3vh solid;
+  left: 16vw;
+}
+#dropBox19{
+  position: absolute;
+  padding: 4vw;
+  top: 24vw;
+  /* background-color: red; */
+  border: 0.3vh solid;
+  left: 24vw;
+}
+#dropBox20{
+  position: absolute;
+  padding: 4vw;
+  top: 24vw;
+  /* background-color: red; */
+  border: 0.3vh solid;
+  left: 32vw;
+}
