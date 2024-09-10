@@ -1,5 +1,29 @@
-@media only screen and (max-width: 1280px) {
+.boxses{
+  position: relative;
+  /* background-color: rgb(115, 77, 77); */
+  /* position: relative; */
+  /* width: 100%; */
+  height: 100vw;
+  top: 25vw;
 
+}
+
+#icons , #namemm{
+  position: absolute;
+  font-size: 0.8vw;
+  /* left: 14vw; */
+  
+
+}
+
+#icons{
+  top: 2vw;
+  left: 20vw;
+}
+#namemm{
+  top: 2vw;
+  left: 13vw;
+}
   .butt2{
       margin-right: 8cm;
     /* right: 50 cm; */
@@ -73,85 +97,4 @@
     }
 
 
-  }
-
-  @media only screen and (max-width: 1880px) {
-
-    
-    canvas{
-        /* background-color: rgb(255, 103, 103); */
-        width: 100%;
-        /* z-index: 10; */
-        position: fixed;
-        /* height: 500%; */
-        height: auto;
-        /* display: flexbox; */
-    }
-    #arrayDisplay{
-        position: relative;
-        right: 1cm;
-        /* top: 5cm; */
-        /* bottom: 1cm; */
-        /* background-color: red; */
-        margin-top: 0.3cm;
-    }
-    
-    .boxses{
-        position: relative;
-        /* background-color: rgb(115, 77, 77); */
-        /* position: relative; */
-        right: 1cm;
-    }
-    .collbox{
-        position: relative;
-        right: 1cm;
-    }
-  #hh2{
-    position: relative;
-    left: 1px;
-  }
-  #chartlagn{
-    font-size: 0.7cm;
-    position: relative;
-    right: 30px;
-    top: 0.5cm;
-  }
-  .sellll{
-    position: relative;
-    right: 3cm;
-    height: 1cm;
-    /* text-align: top; */
-    
-    /* font-size: 0.5cm; */
-  }
-
-  #clear2{
-        position:fixed;
-        right: 5cm;
-  }
-  .box21{
-   position: relative;
-   right: 0.6cm;
-   bottom: px;
-   /* width: 2cm; */
-  }
-
-  #value1{
-    position: relative;
-    right: 1cm;
-  }
- 
-  }
-  #penbox{
-    position: relative;
-    right: 30px;
-  }
   
-  #box21{
-  
-    /* top: -1cm; */
-    /* width: 2cm; */
-    position: relative;
-     top: 0.3cm;
-      z-index: -1;
-   }

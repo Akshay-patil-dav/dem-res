@@ -1,21 +1,25 @@
-.top-ch{
-    display: flex;
-    gap: 0.5cm;
-    /* margin: 2px; */
-}
+
+
+#chartlagn{
+    font-size: 0.7vw;
+    position: absolute;
+    /* right: 30px; */
+    /* top: 0.5cm; */
+  }
 
 .butt{
-    width: 2cm;
-    height: 1cm;
+    position: absolute;
+    width: 5vw;
+    height: 2vw;
    background-color: rgb(255, 255, 255);
    /* color: white; */
-   position: relative;
-   top: 10px;
+
    font-family: Arial black;
-   /* border-radius: 10px; */
-   left: 3cm;
-   /* border: 0px solid; */
-   font-size: 0.4cm   
+   font-size: 0.8vw  ;
+   border: 0.2vw solid;
+   /* border-style: dotted; */
+   top: 5.5vw;
+   left: 14vw;
 }
 .butt:hover{
     background-color: rgb(226, 226, 226);
@@ -25,21 +29,23 @@
 
 
 .butt2{
-    width: 1cm;
-    height: 1cm;
+    position: absolute;
+    width: 3vw;
+    height: 2vw;
    background-color: rgb(255, 255, 255);
    /* color: white; */
-   position: relative;
-   top: 10px;
+
    font-family: Arial black;
-   /* border-radius: 20px; */
-   left: 3.2cm;
-   border: 1px solid;
-   font-size: 0.3cm   
+   font-size: 0.8vw;
+   border: 0.2vw solid;
+   top: 5.5vw;
+   left: 20vw;
+   /* border-style: dotted; */
 }
 .butt2:hover{
     background-color: rgb(207, 207, 207);
 }
+
 
 .pen-img{
     /* padding: cm; */
@@ -64,7 +70,14 @@
 
 
 
-
+#clear2{
+    position: absolute;
+    border: 1px solid;
+    background-color: white;
+    color: black;
+    margin-left: 13cm;
+    margin-top: -2cm;
+}
 .pen-img3{
     /* padding: cm; */
     /* margin: 5px; */
