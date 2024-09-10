@@ -1,11 +1,27 @@
+.color-swatch {
+  position: absolute;
+  padding: 0.8vw;
+  height: 0.1vw;
+  border: 0vw solid;
+   /* margin: 5px; */
+   /* border-radius: 8px; */
+   cursor: grab;
+   /* border-radius: 10%; */
+  
+   /* top: 0.2cm; */
+   bottom: 0.1vw;
+
+   /* left: 0.5vw; */
+   z-index: 4;
+}
 #arrayDisplay{
   position: absolute;
   overflow: hidden;
-  border: 0.1vw solid;
+  border: 0.2vw solid;
   width: 22.7vw;
   height: 22.5vw;
   top: 8vw;
-  left: 0.5vw;
+  left: 1vw;
 }
 .b2{
   position: absolute;

@@ -11,6 +11,16 @@
   margin: 0;
 }
 
+.color-palette{
+  position: absolute;
+  border: 0.1vw solid;
+  height: 2vw;
+  width: 9vw;
+  
+  left: 1vw;
+  top: 38.2vw;
+}
+
 
 #cardbox1{
     /* background-color: white; */
@@ -237,9 +247,7 @@ canvas{
 }
 
 
-.but{
-  /* margin-top: 20cm; */
-}
+
 .draggable {
   width: 150px;
   height: 150px;

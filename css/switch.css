@@ -66,11 +66,12 @@
     /* margin: px; */
     border: 0px solid;
     background-color: wheat;
-    width: 0.7cm;
-    height: 0.7cm;
+    width: 1vw;
+    height: 1vw;
+    font-size: 0.8vw;
     display:flexbox;
     border-radius: 100%;
-    position: relative;
+    position: absolute;
     left: 7px;
 
 

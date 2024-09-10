@@ -10,56 +10,26 @@
   }
    
   
-      ul{
-          /* gap: 0.5cm; */
-          position: absolute;
-          /* left: 5cm; */
-          bottom:1cm;
-          /* display: grid;   display: grid;
-      grid-template-columns: repeat(2, 1fr);
-      gap: 9px;
-      width: 80%;
-      max-width: 1200px; */
-      left: -1cm;
-      display: grid;
-      grid-template-columns: repeat(9, 1fr);
-      /* gap: 9px; */
-      /* width: 10%; */
-      max-width: 10px;
-      /* border: 1px solid; */
-      /* border: 1px solid; */
-  
-              
-      }
-  
-      li{
-          padding: 14px;
-
-          display: flex;
-          cursor: pointer;
-          /* border: 1px solid; */
-          position: absolute;
-          top: 0.7cm; 
-          /* right: 2.5cm; */
-      }
+    
       #pl{
         position: absolute;
-          width: 100%;
-          aspect-ratio: 4/2;
-          object-fit: contain;
-          /* display: none; */
-             
+        width: 2.5vh;
+        /* background-color: red;  */
+        aspect-ratio: 1/1;
+        object-fit: contain;
+        /* bottom: 0.1vh; */
+        top: -3vh;
       }
       #pal{
-        border: 1px solid;
+        border: 0.1vw solid;
 
-        width: 27vw;
+        width: 23vw;
         /* border-radius: 10px; */
         position: absolute;
         height: 3vw;
         /* left: m; */
-        top: 1cm;
-        bottom: -0.2cm;
+        top: 4vw;
+        /* bottom: -0.2cm; */
       }
 
       .lp{
@@ -83,21 +53,79 @@
         position: absolute;
         z-index: 9;
         /* background-color: #f1f1f1; */
-        width: 1cm;
+        /* width: 1cm; */
         border-radius: 10%;
         text-align: center;
+        /* display: block; */
+        /* font-size: 0.5vw; */
+
         /* border: 1px solid #d3d3d3; */
         
       }
       
+     
 
+ td{
+  /* position: absolute; */
+      width: 1cm;
+ }
+    
 
-      #text6{
-        position: relative;
-        right: 5px;
+      #text1{
+        position: absolute;
+        font-size: 0.8vw;
+        left: 0vw;
+        bottom: 0.4vw;
       }
 
+      #text2{
+        position: absolute;
+        font-size: 0.8vw;
+        left: 0.8vw;
+        
+      }
+      #text3{
+        position: absolute;
+     
+        left: 0.4vw;
+      }
+      #text4{
+        position: absolute;
+        font-size: 0.8vw;
+        left: 0vw;
+        
+      }
+      #text5{
+        position: absolute;
+        font-size: 0.8vw;
+        left: 0vw;
+        
+      }
+      #text6{
+        position: absolute;
+        font-size: 0.8vw;
+        left: 0vw;
+        
+      }
 
+      #text7{
+        position: absolute;
+        font-size: 0.8vw;
+        left: 0vw;
+        
+      }
+      #text8{
+        position: absolute;
+        font-size: 0.8vw;
+        left: 0vw;
+        
+      }
+      #text9{
+        position: absolute;
+        font-size: 0.8vw;
+        left: 0vw;
+        
+      }
       #text11{
         display: none;
       }
@@ -142,7 +170,7 @@
         display: none;
       }
 
-
+ 
 
 
 
