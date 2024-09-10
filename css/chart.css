@@ -2,14 +2,14 @@
   position: absolute;
   padding: 0.8vw;
   height: 0.1vw;
-  border: 0vw solid;
+  border: 0.1vw solid;
    /* margin: 5px; */
    /* border-radius: 8px; */
    cursor: grab;
    /* border-radius: 10%; */
   
    /* top: 0.2cm; */
-   bottom: 0.1vw;
+   bottom: 0.3vw;
 
    /* left: 0.5vw; */
    z-index: 4;
