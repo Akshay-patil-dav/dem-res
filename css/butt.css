@@ -104,17 +104,22 @@
     /* padding: cm; */
     /* margin: 5px; */
 
-    margin-left: 0.2cm;
+    /* margin-left: 0.2cm; */
     /* border-radius: 10px; */
-    width: 1cm;
-    height: 1cm;
-    position: relative;
+    width: 2vw;
+    font-size: 1vw;
+    height: 2vw;
+    position: absolute;
     /* font-family: Arial black; */
-    top: 8px;
+    /* top: 8px; */
     /* color: white; */
-    border: 1px solid;
+    border: 0.1vw solid;
     background-color: rgb(255, 255, 255); 
     z-index: 100;
+    left: 3.3vw;
+    right: 0vw;
+    bottom: 0.2vw;
+    /* left: 2vw; */
 }
 
 .pen-img4:hover{ 

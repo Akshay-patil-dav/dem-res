@@ -98,4 +98,18 @@
     }
 
 
-  
+  .colorboxinput{
+    position: absolute;
+    width: 2vw;
+    height: 2vw;
+    border: 0.1vw solid;
+    bottom: 0.2vw;
+    left: 5.5vw;
+  }
+
+  #penbox{
+    position: absolute;
+    font-size: 1vw;
+    top: 37vw;
+    right: 89vw;
+  }

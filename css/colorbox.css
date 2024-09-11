@@ -7,10 +7,13 @@
 
 .pen{
     /* border: 1px solid; */
-    height: 1.5cm;
-    width:0cm;
-    position: relative;
-    right: 0.8cm;
+    height: 2.5vw;
+    width:8vw;
+    position: absolute;
+    border: 0.1vw solid;
+    top: 38.2vw;
+    right: 82.9vw;
+    /* right: 0.8cm; */
     /* border-radius: 20px; */
     
 }
