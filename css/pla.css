@@ -65,6 +65,9 @@
       
      
 
+      #mydiv8{
+        
+      }
 
     
 
@@ -176,4 +179,77 @@
         top: 1cm;
         left: 4.2cm;
         z-index: +5;
+      }
+
+      #duplicate-mydiv8{
+        position: absolute;
+        background-color: red;
+        left: 1vw;
+        top: 0.7vw;
+
+      }
+
+      #duplicate-mydivmoon{
+        position: absolute;
+        background-color: rgb(223, 131, 131);
+        left: 3vw;
+        top: 0.7vw;
+
+      }
+
+      
+      #duplicate-mydivMercury{
+        position: absolute;
+        background-color: rgb(149, 223, 131);
+        left: 5vw;
+        top: 0.7vw;
+
+      }
+      #duplicate-mydivvenus{
+        position: absolute;
+        background-color: rgb(102, 253, 65);
+        left: 7.2vw;
+        top: 0.7vw;
+
+      }
+
+      #duplicate-mydivMars{
+        position: absolute;
+        background-color: rgb(53, 128, 35);
+        left: 9.5vw;
+        top: 0.7vw;
+
+      }
+
+      #duplicate-btnJupiter{
+        position: absolute;
+        background-color: rgb(35, 128, 116);
+        left: 12vw;
+        top: 0.7vw;
+
+      }
+
+      #duplicate-mydivSaturn{
+        position: absolute;
+        background-color: rgb(17, 90, 80);
+        left: 14.5vw;
+        top: 0.7vw;
+
+      }
+
+      
+      #duplicate-mydivRahu{
+        position: absolute;
+        background-color: rgb(0, 255, 221);
+        left: 17vw;
+        top: 0.7vw;
+
+      }
+
+      #duplicate-mydivKetu{
+        position: absolute;
+        background-color: rgb(255, 187, 0);
+        left: 19.5vw;
+        top: 0.7vw;
+
       }
