@@ -11,16 +11,17 @@ function LANG(lang){
         case 'Hin':
             // alert(l1[0])
 
-            document.getElementById('text11').innerHTML = 'सू';
-            document.getElementById('text22').innerHTML = 'चंद्र';
-            document.getElementById('text33').innerHTML = 'बु';
-            document.getElementById('text44').innerHTML = 'शु';
-            document.getElementById('text55').innerHTML = 'मं';
-            document.getElementById('text66').innerHTML = 'बृह';
-            document.getElementById('text77').innerHTML = 'श';
-            document.getElementById('text88').innerHTML = 'रा';
-            document.getElementById('onButton').innerHTML = 'तीर'
-            document.getElementById('text99').innerHTML = 'के';
+            // document.getElementById('text11').innerHTML = 'सू';
+            // document.getElementById('text22').innerHTML = 'चंद्र';
+            // document.getElementById('text33').innerHTML = 'बु';
+            // document.getElementById('text44').innerHTML = 'शु';
+            // document.getElementById('text55').innerHTML = 'मं';
+            // document.getElementById('text66').innerHTML = 'बृह';
+            // document.getElementById('text77').innerHTML = 'श';
+            // document.getElementById('text88').innerHTML = 'रा';
+            // document.getElementById('onButton').innerHTML = 'तीर'
+            // document.getElementById('text99').innerHTML = 'के';
+            // document.getElementById('chartlagn').style.display = 'none'
             arr(l1);
             break;
         case 'Eng':
@@ -64,7 +65,7 @@ function LANG(lang){
     document.getElementById('icons').innerHTML=l1[11]
     // document.getElementById('dub').innerHTML=l1[12]
 
-    document.getElementById('chartlagn').innerHTML = '<h1>लग्न चार्ट</h1>'
+    document.getElementById('chartlagn').innerHTML = 'लग्न चार्ट'
 
 
     document.getElementById('sel1').innerHTML=l1[13]
@@ -117,7 +118,7 @@ function eng(){
         document.getElementById('namemm').innerHTML = 'Names';
         
         document.getElementById('icons').innerHTML = 'Icons';
-        document.getElementById('chartlagn').innerHTML = '<h1>Lagna Chart</h1>'
+        document.getElementById('chartlagn').innerHTML = 'Lagna Chart'
       
 
         document.getElementById('o1').innerHTML=  'Open this select menu' 

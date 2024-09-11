@@ -113,3 +113,14 @@
     top: 37vw;
     right: 89vw;
   }
+
+  .sellang{
+    position: absolute;
+    width: 5vw;
+    height: 2vw;
+    font-size: 1vw;
+    border: 0.1vw solid;
+    text-align: center;
+    left: 58vw;
+    bottom: 40vw;
+  }

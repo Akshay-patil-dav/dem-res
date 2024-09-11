@@ -52,8 +52,7 @@
 
           
       #mydiv,  #mydiv1 , #mydiv2 , #mydiv3 , #mydiv4 , #mydiv5, #mydiv6 , #mydiv7, #mydiv8 , #mydiv9 , .mydiv8{
-        position: absolute;
-        z-index: 9;
+      
         /* background-color: #f1f1f1; */
         /* width: 1cm; */
         border-radius: 10%;
@@ -69,8 +68,12 @@
         
       }
       
-    
-     
+   
+      #mydiv2 {
+        position: absolute;
+        z-index: 2;
+
+      }
 
     
 
@@ -78,19 +81,21 @@
         position: absolute;
         font-size: 0.8vw;
         left: 0vw;
-        bottom: 0.4vw;
+        bottom: 0vw;
       }
 
       #text2{
         position: absolute;
         font-size: 0.8vw;
-        left: 0.8vw;
-        
+        left: -0.1vw;
+        bottom: 0vw;
+
       }
       #text3{
         position: absolute;
-     
-        left: 0.4vw;
+        font-size: 0.8vw;
+        left: -0.1vw;
+
       }
       #text4{
         position: absolute;
