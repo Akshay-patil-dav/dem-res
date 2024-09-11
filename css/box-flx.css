@@ -4,7 +4,13 @@ body{
 .header{
     display: flex;
 }
+.left-top-hd {
+    /* background-color: red; */
+    width: 25%;
+    height: 39vw;
 
+    margin: 1vw;
+} 
 .center-top-hd {
     position: absolute;
     /* background-color: rgb(253, 160, 160); */
