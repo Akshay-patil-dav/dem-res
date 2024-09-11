@@ -12,20 +12,27 @@ body{
     margin: 1vw;
 } 
 .center-top-hd {
+    position: absolute;
+
     /* background-color: rgb(253, 160, 160); */
-    width: 100%;    
-    height: 44vw;
+    width: 30%;    
+    height: 40vw;
     margin: 1vw;
+    left: 30vw;
+    top: 7vw;
     border: 0.2vw solid;
 
 } 
  .right-top-hd{
+    position: absolute;
+    /* display: none; */
     /* background-color: rgb(102, 48, 48); */
-    width: 100%;
+    width: 30%;
     /* height: 5vw; */
-    height: 44vw;
+    left: 63vw;
+    top: 7vw;
+    height: 40vw;
     border: 0.2vw solid;
-
     margin: 1vw;
 
 } 
