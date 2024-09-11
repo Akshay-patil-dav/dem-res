@@ -13,12 +13,14 @@
     
       #pl{
         position: absolute;
-        width: 2.5vh;
+        width: 2.9vh;
         /* background-color: red;  */
         aspect-ratio: 1/1;
         object-fit: contain;
         /* bottom: 0.1vh; */
         top: -3vh;
+      
+        
       }
       #pal{
         border: 0.1vw solid;
@@ -55,19 +57,20 @@
         /* background-color: #f1f1f1; */
         /* width: 1cm; */
         border-radius: 10%;
+        height: 1vw;
+        /* background-color: red; */
+        z-index: 10;
         text-align: center;
         /* display: block; */
         /* font-size: 0.5vw; */
+       
 
         /* border: 1px solid #d3d3d3; */
         
       }
       
+    
      
-
-      #mydiv8{
-        
-      }
 
     
 
