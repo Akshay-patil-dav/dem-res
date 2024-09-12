@@ -1,3 +1,10 @@
+.color{
+    position: absolute;
+    width: 2vw;
+    height: 2vw;
+    border-radius: 100%;
+    border: 0vw solid;
+}
 .col1{
     position: relative;
     right: 1cm;
@@ -29,4 +36,34 @@
     /* border-radius: 20px; */
     
 }
+
+.colbox1{
+    position: absolute;
+    top: 7.5vw;
+    left: 8vw;
+}
+
+.colbox2{
+    position: absolute;
+    top: 7.5vw;
+    left: 12vw;
+}
+.colbox3{
+    position: absolute;
+    top: 7.5vw;
+    left: 16vw;
+}
+.colbox4{
+    position: absolute;
+    top: 7.5vw;
+    left: 20vw;
+}
+.colbox5{
+    position: absolute;
+    top: 7.5vw;
+    left: 24vw;
+    cursor: pointer;
+}
+
+/* /********************************** */
 

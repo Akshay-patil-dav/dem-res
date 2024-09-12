@@ -47,15 +47,15 @@
           </nav>
 
    <!-- ********************************************* user_info********************************************************        -->
-          <div id="popup_nave" style="display: block;">
+          <div id="popup_nave" >
             <div id="background-color-popup">
         
               <div class="box-popup-element">
         
                 <h2 class="h-user">User Information</h2>
-                <hr class="hr-box-ui">
+                
                 <button class="x-bution-popup1" onclick="popup2_close()">x</button>
-              
+                <hr class="hr-box-ui">
                   <label for="exampleFormControlInput1" class="form-label l1" id="fullname1">Full Name</label>
                   <input type="email" class="form-control textbox1" id="exampleFormControlInput1" value="Akshay" onchange="fullname(this.value)" placeholder="User Name">
                 
@@ -83,13 +83,49 @@
            <!-- *******************************************************************navbar*********************************************************************************************** -->
 
 
-<div id="popup_setting1">
+<div id="popup_setting1" style="display: block;">
     <div id="background-color-popup">
 
       <div class="box-popup-element">
-
+        <h2 class="h-user">User Information</h2>
+                
         <button class="x-bution-popup1" onclick="popup1_close()">x</button>
-          setting 1
+        <hr class="hr-box-ui">
+        <!-- **************************************************** -->
+        <select class="rachisel" aria-label="Large select example" id="val11"  onchange="NUM(this.value)" >
+          <option id="o1"  selected>Open this select menu</option>
+          <option id="o2" value="Aries"> Aries</option>
+          <option id="o3" value="Taurus">Taurus</option>
+          <option id="o4" value="Gemini">Gemini</option>
+          <option id="o5" value="Cancer">Cancer</option>
+          <option id="o6" value="Leo">Leo</option>
+          <option id="o7" value="Virgo">Virgo</option>
+          <option id="o8" value="Libra">Libra</option>
+          <option id="o9" value="Scorpio">Scorpio</option>
+          <option id="o10" value="Sagittarius">Sagittarius</option>
+          <option id="o11" value="Capricorn">Capricorn</option>
+          <option id="o12" value="Aquarius">Aquarius</option>
+          <option id="o13" value="Pisces">Pisces</option>
+          <!-- <option value="Capricorn Rashi">Capricorn Rashi</option> -->
+        </select>
+         <!-- ************************************************ -->
+
+         <h5 class=" BorderColor"  id="border">   Border Color </h5>
+         <button class="color colbox1" style="background-color: red; "             value="red"               onclick="c01(this.value)"></button>
+         <button class="color colbox2" style="background-color: rgb(0, 0, 0);"     value=" rgb(0, 0, 0)"     onclick="c2(this.value)"></button>
+         <button class="color colbox3" style="background-color: rgb(22, 224, 15);" value="rgb(22, 224, 15)"  onclick="c3(this.value)"></button>
+         <button class="color colbox4" style="background-color: rgb(17, 67, 175);" value="rgb(17, 67, 175)"  onclick="c4(this.value)"></button>
+         <button class="color colbox5" style="background-color: rgb(68, 7, 109); " value="rgb(68, 7, 109)"   onclick="c5(this.value)"></button>
+      
+          <!-- ***************************************************** -->
+          <h5 class="Box_Color " id="box">  Box Color </h5>
+            <button class="color" style="background-color: red;" onclick="B1()"></button>
+            <button class="color" style="background-color: rgb(0, 0, 0);" onclick="B2()"></button>
+            <button class="color" style="background-color: rgb(22, 224, 15);"  onclick="B3()"></button>
+            <button class="color" style="background-color: rgb(17, 67, 175);"  onclick="B4()"></button>
+            <button class="color" style="background-color: rgb(68, 7, 109);"  onclick=" B5()"></button>
+         
+          <!-- **************************************************************************** -->
         <button class="saave-bution-popup1" onclick="popup1_close()">Save</button>
       </div>
 
