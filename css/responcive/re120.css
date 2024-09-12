@@ -29,6 +29,7 @@
     width: 30%;
     height: 30%;
     bottom: 15vw;
+    border-radius: 2%;
     left: 32vw;
     animation: splash 1s normal forwards ease-in-out;
 
@@ -54,6 +55,7 @@
     font-size: 0.8vw;
     width: 5vw;
     height: 2vw;
+    /* border-radius: 10%; */
     border: 0.1vw solid;
     background-color: rgb(255, 255, 255);
     font-family: Arial black;
@@ -79,4 +81,63 @@
     top: 0;
     right: 0vw;
     cursor: pointer;
+}
+
+.form-control{
+    position: absolute;
+    font-size: 1vw;
+    width: 20vw;
+    height: 2vw;
+    border: 0.1vw solid;
+}
+.form-label{
+    position: absolute;
+    font-size: 1vw;
+    /* bottom: 0vw; */
+    
+}
+
+.textbox1{
+    position: absolute;
+    top: 6vw;
+    left: 5vw;
+}
+.textbox2{
+    position: absolute;
+    top: 11vw;
+    left: 5vw;
+}
+
+.textbox3{
+    position: absolute;
+    top: 16vw;
+    left: 5vw;
+}
+
+.l1{
+    position: absolute;
+    top: 4.5vw;
+    left: 5vw;
+}
+.l2{
+    position: absolute;
+    top: 9.5vw;
+    left: 5vw;
+}
+
+.l3{
+    position: absolute;
+    top: 14.5vw;
+    left: 5vw;
+}
+.h-user{
+    position: absolute;
+    font-size: 1.5vw;
+    left: 9vw;
+}
+.hr-box-ui{
+    position: absolute;
+    top: 3vw;
+    background-color: rgb(0, 0, 0);
+    width: 29.9 vw;
 }

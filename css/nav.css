@@ -33,14 +33,16 @@ input[type="file"] {
   font-size: 0.8vw;
 }
 #fullname {
-  position: absolute;
+  /* position: absolute; */
   /* right: 15vw; */
-  left: 1vw;
+  left: 0vw;
+  /* width: auto; */
 }
 #name {
   position: absolute;
   /* right: 15vw; */
-  left: 6vw;
+  left: 4.5vw;
+  /* width: auto; */
 }
 #mail{
   position: absolute;
@@ -50,16 +52,16 @@ input[type="file"] {
 #email{
   position: absolute;
   /* right: 15vw; */
-  left: 14.8vw;
+  left: 14.1vw;
 }
 #ph{
   position: absolute;
   /* right: 15vw; */
-  left: 24vw;
+  left: 25.5vw;
 }
 #phone{
   position: absolute;
   /* right: 15vw; */
-  left: 29vw;
+  left: 30vw;
 
 }
