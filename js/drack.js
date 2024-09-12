@@ -59,8 +59,9 @@
         newElement.attr("id", "element-" + elementCount);
         newElement.css({
             position: "absolute",
-            bottom: "14.5vw",
-            left: "2vw"
+            top: "35.5vw",  
+            left: "2vw",
+            // zindex: "100"
         }).appendTo("body");
         newElement.draggable({
             containment: "body"
@@ -73,7 +74,7 @@
         newElement.attr("id", "element-" + elementCount);
         newElement.css({
             position: "absolute",
-            bottom: "14.5vw",
+            top: "35.5vw",
             left: "4vw"
         }).appendTo("body");
         newElement.draggable({
@@ -87,7 +88,7 @@
         newElement.attr("id", "element-" + elementCount);
         newElement.css({
             position: "absolute",
-            bottom: "14.5vw",
+            top: "35.5vw",
             left: "6vw"
         }).appendTo("body");
         newElement.draggable({
@@ -101,7 +102,7 @@
         newElement.attr("id", "element-" + elementCount);
         newElement.css({
             position: "absolute",
-            bottom: "14.5vw",
+            top: "35.5vw",
             left: "8vw"
         }).appendTo("body");
         newElement.draggable({
@@ -116,7 +117,7 @@
         newElement.attr("id", "element-" + elementCount);
         newElement.css({
             position: "absolute",
-            bottom: "14.5vw",
+            top: "35.5vw",
             left: "10.5vw"
         }).appendTo("body");
         newElement.draggable({
@@ -131,7 +132,7 @@
         newElement.attr("id", "element-" + elementCount);
         newElement.css({
              position: "absolute",
-            bottom: "14.5vw",
+             top: "35.5vw",
             left: "13vw"
         }).appendTo("body");
         newElement.draggable({
@@ -147,7 +148,7 @@
         newElement.css({
             position: "absolute",
             // top: "0.1vw",
-            bottom: "14.5vw",
+            top: "35.5vw",
             left: "15.5vw",
         }).appendTo("body");
         newElement.draggable({
@@ -162,7 +163,7 @@
         newElement.css({
             position: "absolute",
             // top: "0.1vw",
-            bottom: "14.5vw",
+            top: "35.5vw",
             left: "18vw",
         }).appendTo("body");
         newElement.draggable({
@@ -180,8 +181,9 @@
             // top: "0.1vw",
             backgroundcolor: "red",
             // height: "",
-            bottom: "14.5vw",
-            left: "20.3vw",
+            top: "35.5vw",
+            left: "20.3vw"
+            
         }).appendTo("body");
         newElement.draggable({
             containment: "body"

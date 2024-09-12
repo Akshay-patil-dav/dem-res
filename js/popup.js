@@ -204,7 +204,7 @@ function f1(val){
     document.getElementById('text1').style.color = val
     document.getElementById('text2').style.color = val
     document.getElementById('text3').style.color = val
-    document.getElementById('text4').style.color = val
+    document.getElementById('text41').style.color = val
     document.getElementById('text5').style.color = val
     document.getElementById('text6').style.color = val
     document.getElementById('text7').style.color = val

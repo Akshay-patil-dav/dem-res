@@ -83,16 +83,7 @@ canvas{
     border: 0.1cm solid;
 }
 
-#text3{
-    position: relative;
-    top: 5px;
-    /* right: 5px; */
-    /* font-family: Arial bla/ck; */
 
-    font-size:13px ;
-    
-
-}
 #text99{
   display: none;
 }
@@ -310,4 +301,29 @@ canvas{
   height: 2vw;
   top: 4vw;
   left: 1vw;
+}
+
+.imgcustselect{
+  position: absolute;
+  width: 14vw;
+  font-size: 1.2vw;
+  right: 0.2vw;
+  top: 0.4vw;
+}
+.textarears{
+  position: absolute;
+  top: 4vw;
+  height: 25vw;
+  width: 25vw;
+  left: 2vw;
+  border: 0.1vw solid;
+  font-size: 0.8vw;
+  font-family: Arial black;
+}
+
+.pen1{
+  position: absolute;
+   left: 5vw;
+   border: 0.1vw solid;
+   width:10vw ;
 }

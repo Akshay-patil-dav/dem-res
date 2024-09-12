@@ -26,16 +26,7 @@
 }
 
 
-.pen1{
-    border: 1px solid;
-    height: 1.5cm;
-    width: 3cm;
-    position: relative;
-    /* right: 1cm; */
-    left: 0cm;
-    /* border-radius: 20px; */
-    
-}
+
 
 .colbox1{
     position: absolute;
