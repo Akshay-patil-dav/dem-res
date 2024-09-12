@@ -472,6 +472,26 @@ function f5(val){
 
 
 
+function popup1_close(){
+    document.getElementById('popup_setting1').style.display = 'none'
+}
 
+function popup1_open(){
+    document.getElementById('popup_setting1').style.display = 'block'
 
+}
 
+// *****************************************************************************
+function user_info(){
+    document.getElementById('popup_nave').style.display = 'block'
+
+}
+
+function popup2_close(){
+    document.getElementById('popup_nave').style.display = 'none'
+}
+
+function popup2_open(){
+    document.getElementById('popup_nave').style.display = 'block'
+
+}

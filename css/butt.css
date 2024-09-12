@@ -7,6 +7,17 @@
     /* top: 0.5cm; */
   }
 
+  #user_info{
+    position: absolute;
+    background-color: rgb(204, 204, 204);
+    border: 0vw solid;
+    height: 2vw;
+    width: 40vw;
+    cursor: pointer;
+    right: 0;
+    top: 1vw;
+  }
+
 .butt{
     position: absolute;
     width: 5vw;

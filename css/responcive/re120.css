@@ -6,7 +6,13 @@
     left: 1vw;
 }
 
-.background-color-popup{
+#popup_setting1{
+    display: none;
+}
+#popup_nave{
+    display: none;
+}
+#background-color-popup{
     /* display: none; */
     position: absolute;
     background-color: rgba(0, 0, 0, 0.795);
@@ -58,4 +64,19 @@
 }
 .saave-bution-popup1:hover{
     background-color: rgb(223, 223, 223);
+}
+
+.x-bution-popup1{
+    position: absolute;
+    font-size: 2vw;
+    width: 5vw;
+    height: 2vw;
+    border: 0vw solid;
+    background-color: rgb(255, 255, 255);
+    /* font-family: Arial black; */
+    color: rgb(107, 107, 107);
+    /* bottom: 1vw; */
+    top: 0;
+    right: 0vw;
+    cursor: pointer;
 }

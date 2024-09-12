@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bootstrap demo</title>
+    <title>Dem</title>
     <link rel="stylesheet" href="./css/nav.css">
     <link rel="stylesheet" href="./p.css">
     <link rel="stylesheet" href="./chart.css">
@@ -26,9 +26,25 @@
               <input id="fileInput" type="file"/>
                                   </div>
                         <!-- <button ></button> -->
+
+                        <button id="user_info" onclick="user_info()">  <b id="fullname">  Full Name :</b><b id="name">Akshay</b> &#160 &#160 <b id="mail">E-mail ID :</b> <b id="email"> name@example.com</b> &#160 &#160 <b id="ph"> Phone No :</b> <b id="phone"> +91-54654646546</b>
+                        </button>
           </nav>
 
-   
+          <div id="popup_nave">
+            <div id="background-color-popup">
+        
+              <div class="box-popup-element">
+        
+                <button class="x-bution-popup1" onclick="popup2_close()">x</button>
+                popup_nave
+                <button class="saave-bution-popup1" onclick="popup2_close()">Save</button>
+              </div>
+        
+            </div>
+        </div>
+
+
 
 <div class="header">
 
@@ -36,16 +52,18 @@
            <!-- *******************************************************************navbar*********************************************************************************************** -->
 
 
-
-    <div class="background-color-popup">
+<div id="popup_setting1">
+    <div id="background-color-popup">
 
       <div class="box-popup-element">
 
-        <button class="saave-bution-popup1">Save</button>
+        <button class="x-bution-popup1" onclick="popup1_close()">x</button>
+          setting 1
+        <button class="saave-bution-popup1" onclick="popup1_close()">Save</button>
       </div>
 
     </div>
-
+</div>
 
 
 
@@ -60,7 +78,7 @@
             
             <button id="remove" style="z-index: 100;" class="butt" onclick="remove()" >Reset</button>
      
-            <button id="openPopup"  style="z-index: 100;"   class="butt2" type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#set1">⚙️</button>
+            <button id="openPopup"  style="z-index: 100; cursor: pointer;"    class="butt2" type="button" class="btn btn-primary"  onclick="popup1_open()">⚙️</button>
           </div>
 
           

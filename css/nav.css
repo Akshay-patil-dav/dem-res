@@ -27,3 +27,39 @@ height: 7vh;
 input[type="file"] {
   display: none;
 }
+#fullname , #name , #mail , #email , #ph ,#phone{
+  position: absolute;
+  
+  font-size: 0.8vw;
+}
+#fullname {
+  position: absolute;
+  /* right: 15vw; */
+  left: 1vw;
+}
+#name {
+  position: absolute;
+  /* right: 15vw; */
+  left: 6vw;
+}
+#mail{
+  position: absolute;
+  /* right: 15vw; */
+  left: 10vw;
+}
+#email{
+  position: absolute;
+  /* right: 15vw; */
+  left: 14.8vw;
+}
+#ph{
+  position: absolute;
+  /* right: 15vw; */
+  left: 24vw;
+}
+#phone{
+  position: absolute;
+  /* right: 15vw; */
+  left: 29vw;
+
+}
