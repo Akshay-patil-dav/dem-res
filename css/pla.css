@@ -76,6 +76,23 @@
       }
 
     
+      .mydiv9{
+        position:  absolute;
+        left: 19.5vw;
+        top: 1.8vw;
+      }
+      .mydiv7{
+        position: absolute;
+        left: 16.7vw;
+        top: 1.8vw;
+      }
+
+      .mydiv6{
+        position: absolute;
+        left: 14vw;
+        top: 1.8vw;
+      }
+
 
       #text1{
         position: absolute;
