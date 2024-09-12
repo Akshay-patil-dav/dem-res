@@ -114,6 +114,13 @@
     right: 89vw;
   }
 
+  #onButton{
+    position: absolute;
+    font-size: 1vw;
+    top: 37vw;
+    /* right: 8vw; */
+    left: 17.7vw;
+  }
   .sellang{
     position: absolute;
     width: 5vw;

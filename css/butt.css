@@ -1,12 +1,5 @@
 
 
-#chartlagn{
-    font-size: 0.7vw;
-    position: absolute;
-    /* right: 30px; */
-    /* top: 0.5cm; */
-  }
-
   #user_info{
     position: absolute;
     background-color: rgb(204, 204, 204);
@@ -30,7 +23,7 @@
    border: 0.2vw solid;
    /* border-style: dotted; */
    top: 5.5vw;
-   left: 14vw;
+   left: 15vw;
 }
 .butt:hover{
     background-color: rgb(226, 226, 226);
@@ -45,12 +38,11 @@
     height: 2vw;
    background-color: rgb(255, 255, 255);
    /* color: white; */
-
    font-family: Arial black;
    font-size: 0.8vw;
    border: 0.2vw solid;
    top: 5.5vw;
-   left: 20vw;
+   left: 20.8vw;
    /* border-style: dotted; */
 }
 .butt2:hover{

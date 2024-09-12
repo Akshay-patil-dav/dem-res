@@ -19,6 +19,14 @@
     /* z-index: 100 */
   }
   
+  .switch #toggleArrowButton { 
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+    /* z-index: 100 */
+  }
+  
   .slider {
     position: absolute;
     cursor: pointer;
