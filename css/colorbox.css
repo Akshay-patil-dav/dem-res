@@ -41,22 +41,26 @@
     position: absolute;
     top: 7.5vw;
     left: 8vw;
+    cursor: pointer;
 }
 
 .colbox2{
     position: absolute;
     top: 7.5vw;
     left: 12vw;
+    cursor: pointer;
 }
 .colbox3{
     position: absolute;
     top: 7.5vw;
     left: 16vw;
+    cursor: pointer;
 }
 .colbox4{
     position: absolute;
     top: 7.5vw;
     left: 20vw;
+    cursor: pointer;
 }
 .colbox5{
     position: absolute;
@@ -67,3 +71,47 @@
 
 /* /********************************** */
 
+
+.colbox6{
+    position: absolute;
+    top: 12.5vw;
+    left: 8vw;
+    cursor: pointer;
+}
+
+.colbox7{
+    position: absolute;
+    top: 12.5vw;
+    left: 12vw;
+    cursor: pointer;
+}
+.colbox8{
+    position: absolute;
+    top: 12.5vw;
+    left: 16vw;
+    cursor: pointer;
+}
+.colbox9{
+    position: absolute;
+    top: 12.5vw;
+    left: 20vw;
+    cursor: pointer;
+}
+.colbox10{
+    position: absolute;
+    top: 12.5vw;
+    left: 24vw;
+    cursor: pointer;
+}
+
+/* /********************************** */
+
+
+.Box_Color{
+    position: absolute;
+    font-size: 0.9vw;
+    /* bottom: 0; */
+    top: 13vw;
+    left: 1vw;
+    
+}
