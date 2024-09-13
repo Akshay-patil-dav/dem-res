@@ -495,3 +495,23 @@ function popup2_open() {
     document.getElementById('popup_nave').style.display = 'block'
 
 }
+
+
+function box1sel(value){
+    
+        switch(value){
+            case 'notes':
+                document.getElementById('textarears').style.display = 'block'
+                break;
+        }
+}
+
+
+function box1sel2(value){
+    
+    switch(value){
+        case 'notes':
+            document.getElementById('textarears2').style.display = 'block'
+            break;
+    }
+}
