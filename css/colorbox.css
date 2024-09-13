@@ -1,115 +1,28 @@
-.color {
-    position: absolute;
-    width: 2vw;
-    height: 2vw;
-    border-radius: 100%;
-    border: 0vw solid;
-}
-
-.col1 {
+.col1{
     position: relative;
-    right: 1cm;
+    /* right: 1cm; */
+    /* width: cm; */
     /* top: 13cm; */
     /* background-color: rgb(255, 255, 255); */
 }
 
-.pen {
-    /* border: 1px solid; */
-    height: 2.5vw;
-    width: 8vw;
-    position: absolute;
-    border: 0.1vw solid;
-    top: 38.2vw;
-    right: 82.9vw;
-    /* right: 0.8cm; */
+
+
+
+.pen1{
+    border: 1px solid;
+    height: 1.5cm;
+    width: 3cm;
+    position: relative;
+    /* right: 1cm; */
+    /* left: 0cm; */
     /* border-radius: 20px; */
-
+    
+}
+.boxes-color-pen-arrow{
+    /* position: absolute; */
+    margin-top: 1cm;
+    margin-right: 0cm;
 }
 
 
-
-
-.colbox1 {
-    position: absolute;
-    top: 7.5vw;
-    left: 8vw;
-    cursor: pointer;
-}
-
-.colbox2 {
-    position: absolute;
-    top: 7.5vw;
-    left: 12vw;
-    cursor: pointer;
-}
-
-.colbox3 {
-    position: absolute;
-    top: 7.5vw;
-    left: 16vw;
-    cursor: pointer;
-}
-
-.colbox4 {
-    position: absolute;
-    top: 7.5vw;
-    left: 20vw;
-    cursor: pointer;
-}
-
-.colbox5 {
-    position: absolute;
-    top: 7.5vw;
-    left: 24vw;
-    cursor: pointer;
-}
-
-/* /********************************** */
-
-
-.colbox6 {
-    position: absolute;
-    top: 12.5vw;
-    left: 8vw;
-    cursor: pointer;
-}
-
-.colbox7 {
-    position: absolute;
-    top: 12.5vw;
-    left: 12vw;
-    cursor: pointer;
-}
-
-.colbox8 {
-    position: absolute;
-    top: 12.5vw;
-    left: 16vw;
-    cursor: pointer;
-}
-
-.colbox9 {
-    position: absolute;
-    top: 12.5vw;
-    left: 20vw;
-    cursor: pointer;
-}
-
-.colbox10 {
-    position: absolute;
-    top: 12.5vw;
-    left: 24vw;
-    cursor: pointer;
-}
-
-/* /********************************** */
-
-
-.Box_Color {
-    position: absolute;
-    font-size: 0.9vw;
-    /* bottom: 0; */
-    top: 13vw;
-    left: 1vw;
-
-}

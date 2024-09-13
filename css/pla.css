@@ -1,413 +1,152 @@
-#p7 {
-  width: 0.5cm;
-  /* background-color: red; */
-  position: relative;
-  left: 11.6cm;
 
-  top: -250px;
-  /* bottom: ; */
-}
+#p7{
+    width: 0.5cm;
+    /* background-color: red; */
+    position: relative;
+    left: 11.6cm;
+  
+    top: -250px;
+    /* bottom: ; */
+  }
+      body{
+          /* overflow: hidden; */
+      }
+      ul{
+          /* gap: 0.5cm; */
+          position: relative;
+          /* left: 5cm; */
+          bottom:1cm;
+          /* display: grid;   display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 9px;
+      width: 80%;
+      max-width: 1200px; */
+      left: -1cm;
+      display: grid;
+      grid-template-columns: repeat(9, 1fr);
+      /* gap: 9px; */
+      /* width: 10%; */
+      max-width: 10px;
+      /* border: 1px solid; */
+      /* border: 1px solid; */
+  
+              
+      }
+  
+      li{
+          padding: 14px;
 
+          display: flex;
+          cursor: pointer;
+          /* border: 1px solid; */
+          position: relative;
+          top: 0.7cm; 
+          /* right: 2.5cm; */
+      }
+      #pl{
+          width: 100%;
+          aspect-ratio: 3/2;
+          object-fit: contain;
+          /* display: none; */
+             
+      }
+      #pal{
+        border: 1px solid;
 
-
-#pl {
-  position: absolute;
-  width: 2.9vh;
-  /* background-color: red;  */
-  aspect-ratio: 1/1;
-  object-fit: contain;
-  /* bottom: 0.1vh; */
-  top: -3vh;
-
-
-}
-
-#pal {
-  border: 0.1vw solid;
-
-  width: 23vw;
-  /* border-radius: 10px; */
-  position: absolute;
-  height: 3vw;
-  /* left: m; */
-  top: 4vw;
-  /* bottom: -0.2cm; */
-}
-
-.lp {
-  position: absolute;
-  top: 2vw;
-  font-size: 0.9vw
-}
-
-
-
-
-
-
-
-
-
-
-
-#mydiv,
-#mydiv1,
-#mydiv2,
-#mydiv3,
-#mydiv4,
-#mydiv5,
-#mydiv6,
-#mydiv7,
-#mydiv8,
-#mydiv9,
-.mydiv8 {
-
-  /* background-color: #f1f1f1; */
-  /* width: 1cm; */
-  border-radius: 10%;
-  height: 1vw;
-  /* background-color: red; */
-  z-index: 10;
-  /* text-align: center; */
-  /* display: block; */
-  /* font-size: 0.5vw; */
-
-
-  /* border: 1px solid #d3d3d3; */
-
-}
-#mydiv8{
-  position: relative;
-  top: 1.6vw;
-  left: 0.8vw;
-}
-#mydiv{
-  position: relative;
-  left: 4.5vw;
-  top: 1.7vw;
-}
-#mydiv1{
-  position: relative;
-  left: 6.9vw;
-  top: 1.9vw;
-}
-
-#mydiv4 {
-  position: absolute;
-  left: 11.8vw;
-  top: 1.9vw;
-}
-
-#mydiv3 {
-  position: absolute;
-  left: 9.1vw;
-  top: 1.9vw;
-}
-
-#mydiv2 {
-  position: absolute;
-  z-index: 2;
-  left: 3vw;
-  top: 1.9vw;
-
-}
-
-
-.mydiv9 {
-  position: absolute;
-  left: 19.5vw;
-  top: 1.8vw;
-}
-
-.mydiv7 {
-  position: absolute;
-  left: 16.7vw;
-  top: 1.8vw;
-}
-
-.mydiv6 {
-  position: absolute;
-  left: 14vw;
-  top: 1.8vw;
-}
-
-
-#tex1 {
-  position: absolute;
-  /* background-color: red; */
-  top: 0.1vw;
-}
-
-#tex3 {
-  position: absolute;
-  /* background-color: red; */
-  font-size: 0.8vw;
-  left: 0vw;
-  top: 0.1vw;
-}
-
-#tex6 {
-  position: absolute;
-  /* background-color: red; */
-  left: -0.4vw;
-  top: 0.1vw;
-}
-
-#tex4 {
-  position: absolute;
-  /* margin-left: 1vw; */
-
-  font-size: 0.8vw;
-  /* background-color: red; */
-  /* left: -0.5vw; */
-
-}
-
-/* 
-
-      #text1{
-        position: absolute;
-        font-size: 0.8vw;
-        left: 0vw;
-        bottom: 0vw;
+        width: 13cm;
+        /* border-radius: 10px; */
+        position: relative;
+        height: 1.5cm;
+        /* left: m; */
+        top: 1cm;
+        bottom: -0.2cm;
       }
 
-      #text2{
-        position: absolute;
-        font-size: 0.8vw;
-        left: -0.1vw;
-        bottom: 0vw;
-
+      .lp{
+        position: relative;
+        top: 1cm;
       }
-      #text3{
       
-        position: absolute;
-        font-size: 0.8vw;
-        left: -0.5vw;
-    
 
-      }
-      #text4{
-        position: absolute;
-        font-size: 0.8vw;
-        /* left: 0.8vw; */
 
-/* } */
-/*   #text5{
+
+
+
+
+
+
+
+          
+      #mydiv,  #mydiv1 , #mydiv2 , #mydiv3 , #mydiv4 , #mydiv5, #mydiv6 , #mydiv7, #mydiv8 , #mydiv9 , .mydiv8{
         position: absolute;
-        font-size: 0.8vw;
-        left: 0vw;
+        z-index: 9;
+        /* background-color: #f1f1f1; */
+        width: 1cm;
+        border-radius: 10%;
+        text-align: center;
+        /* border: 1px solid #d3d3d3; */
         
       }
+      
+
+
       #text6{
-        position: absolute;
-        font-size: 0.8vw;
-        left: -0.3vw;
-        
-      }
-
-      #text7{
-        position: absolute;
-        font-size: 0.8vw;
-        left: 0vw;
-        
-      }
-      #text8{
-        position: absolute;
-        font-size: 0.8vw;
-        left: 0vw;
-        
-      }
-      #text9{
-        position: absolute;
-        font-size: 0.8vw;
-        left: 0vw;
-        
-      } */
-
-      #text1{
-        font-size: 0.8vw;
-      }
-      #text2{
         position: relative;
-        right: 0.3vw;
-        font-size: 0.8vw;
-      }
-      #text3{
-        position: relative;
-        right: 0.1vw;
-        font-size: 0.6vw;
-      }
-      #text4{
-        font-size: 0.8vw;
-      }
-      #text5{
-        font-size: 0.8vw;
-      }
-      #text5{
-        font-size: 0.8vw;
-      }
-      #text6{
-        font-size: 0.8vw;
-      }
-      #text7{
-        font-size: 0.8vw;
-      }
-      #text8{
-        font-size: 0.8vw;
-      }
-      #text9{
-        font-size: 0.8vw;
+        right: 5px;
       }
 
+
+      #text11{
+        display: none;
+      }
 
       
-#text11 {
-  display: none;
-  font-size: 0.8vw;
+      #text22{
+        display: none;
+      }
 
-}
+      
+      #text33{
+        display: none;
+      }
 
+      
+      #text44{
+        display: none;
+      }
 
-#text22 {
-  display: none;
-  font-size: 0.8vw;
+      
+      #text55{
+        display: none;
+      }
 
-}
+      
+      #text66{
+        display: none;
+      }
 
+      
+      #text77{
+        display: none;
+      }
 
-#text33 {
-  display: none;
-  font-size: 0.8vw;
+      
+      #text88{
+        display: none;
+      }
 
-}
-
-
-#text44 {
-  display: none;
-  font-size: 0.8vw;
-
-}
-
-
-#text55 {
-  display: none;
-  font-size: 0.8vw;
-
-}
-
-
-#text66 {
-  display: none;
-  font-size: 0.8vw;
-
-}
-
-
-#text77 {
-  display: none;
-  font-size: 0.8vw;
-
-}
-
-
-#text88 {
-  display: none;
-  font-size: 0.8vw;
-
-}
-
-#text99 {
-  display: none;
-  font-size: 0.8vw;
-
-}
-#text {
-  display: none;
-}
+      
+      #text{
+        display: none;
+      }
 
 
 
 
 
-.form-switch {
-  position: relative;
-  top: 1cm;
-  left: 4.2cm;
-  z-index: +5;
-}
-
-#duplicate-mydiv8 {
-  position: absolute;
-  /* background-color: red; */
-  left: 1vw;
-  top: 0.7vw;
-
-}
-
-#duplicate-mydivmoon {
-  position: absolute;
-  /* background-color: rgb(223, 131, 131); */
-  left: 3vw;
-  top: 0.7vw;
-
-}
-
-
-#duplicate-mydivMercury {
-  position: absolute;
-  /* background-color: rgb(149, 223, 131); */
-  left: 5vw;
-  top: 0.7vw;
-
-}
-
-#duplicate-mydivvenus {
-  position: absolute;
-  /* background-color: rgb(102, 253, 65); */
-  left: 7.2vw;
-  top: 0.7vw;
-
-}
-
-#duplicate-mydivMars {
-  position: absolute;
-  /* background-color: rgb(53, 128, 35); */
-  left: 9.5vw;
-  top: 0.7vw;
-
-}
-
-#duplicate-btnJupiter {
-  position: absolute;
-  /* background-color: rgb(35, 128, 116); */
-  left: 12vw;
-  top: 0.7vw;
-
-}
-
-#duplicate-mydivSaturn {
-  position: absolute;
-  /* background-color: rgb(17, 90, 80); */
-  left: 14.5vw;
-  top: 0.7vw;
-
-}
-
-
-#duplicate-mydivRahu {
-  position: absolute;
-  /* background-color: rgb(0, 255, 221); */
-  left: 17vw;
-  top: 0.7vw;
-
-}
-
-#duplicate-mydivKetu {
-  position: absolute;
-  /* background-color: rgb(255, 187, 0); */
-  left: 19.5vw;
-  top: 0.7vw;
-
-
-}
+      .form-switch{
+        position: relative;
+        top: 1cm;
+        left: 4.2cm;
+        z-index: +5;
+      }

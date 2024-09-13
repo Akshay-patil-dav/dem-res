@@ -1,6 +1,6 @@
 
 function remove() {
-
+    
     // document.getElementById('dropBox9').addEventListener('drop', function(e) {
     //     // e.preventDefault();
     //     // const color = e.dataTransfer.getData('color');
@@ -32,27 +32,26 @@ function remove() {
     document.getElementById('dropBox22').style.backgroundColor = '';
     document.getElementById('dropBox23').style.backgroundColor = '';
     document.getElementById('dropBox24').style.backgroundColor = '';
-
-
+    
+   
     document.getElementById('displayImage2').innerHTML = ""
     document.getElementById('displayImage').innerHTML = ""
+    
 
-
-
-}
-
-
+    
+    }
 
 
 
 
-
-document.getElementById('remove').addEventListener('click', () => {
-    canvasContext.clearRect(0, 0, canvasElement.width, canvasElement.height);
+    
 
 
-    arrows = [];
-    arrowContext.clearRect(0, 0, arrowCanvas.width, arrowCanvas.height);
+    document.getElementById('remove').addEventListener('click', () => {
+   
+        myUniqueContext.clearRect(0, 0, myUniqueCanvas.width, myUniqueCanvas.height);
 
-
-});
+        arrows = [];
+        arrowContext.clearRect(0, 0, arrowCanvas.width, arrowCanvas.height);
+    });
+    

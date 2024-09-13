@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Three Vertical Sections with Equal Inner Elements</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+        .container {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr; /* Each section takes 1/3rd of the width */
+            height: 100%;
+        }
+        .section {
+            display: grid;
+            grid-template-rows: 1fr 1fr 1fr; /* Each inner element takes 1/3rd of the height */
+            padding: 20px;
+            box-sizing: border-box;
+            border: 1px solid #000;
+            text-align: center;
+        }
+        .section1 { background-color: lightcoral; }
+        .section2 { background-color: lightseagreen; }
+        .section3 { background-color: lightblue; }
+        .inner-element {
+            border: 1px solid #fff;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="section section1">
+            <div class="inner-element">Inner 1</div>
+            <div class="inner-element">Inner 2</div>
+            <div class="inner-element">Inner 3</div>
+        </div>
+        <div class="section section2">
+            <div class="inner-element">Inner 1</div>
+            <div class="inner-element">Inner 2</div>
+            <div class="inner-element">Inner 3</div>
+        </div>
+        <div class="section section3">
+            <div class="inner-element">Inner 1</div>
+            <div class="inner-element">Inner 2</div>
+            <div class="inner-element">Inner 3</div>
+        </div>
+    </div>
+</body>
+</html>
