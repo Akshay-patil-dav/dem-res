@@ -223,46 +223,100 @@
         left: 0vw;
         
       } */
+
+      #text1{
+        font-size: 0.8vw;
+      }
+      #text2{
+        font-size: 0.8vw;
+      }
+      #text3{
+        font-size: 0.8vw;
+      }
+      #text4{
+        font-size: 0.8vw;
+      }
+      #text5{
+        font-size: 0.8vw;
+      }
+      #text5{
+        font-size: 0.8vw;
+      }
+      #text6{
+        font-size: 0.8vw;
+      }
+      #text7{
+        font-size: 0.8vw;
+      }
+      #text8{
+        font-size: 0.8vw;
+      }
+      #text9{
+        font-size: 0.8vw;
+      }
+
+
+      
 #text11 {
   display: none;
+  font-size: 0.8vw;
+
 }
 
 
 #text22 {
   display: none;
+  font-size: 0.8vw;
+
 }
 
 
 #text33 {
   display: none;
+  font-size: 0.8vw;
+
 }
 
 
 #text44 {
   display: none;
+  font-size: 0.8vw;
+
 }
 
 
 #text55 {
   display: none;
+  font-size: 0.8vw;
+
 }
 
 
 #text66 {
   display: none;
+  font-size: 0.8vw;
+
 }
 
 
 #text77 {
   display: none;
+  font-size: 0.8vw;
+
 }
 
 
 #text88 {
   display: none;
+  font-size: 0.8vw;
+
 }
 
+#text99 {
+  display: none;
+  font-size: 0.8vw;
 
+}
 #text {
   display: none;
 }
