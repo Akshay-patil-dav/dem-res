@@ -150,3 +150,116 @@
 .pen-img4:hover {
     background-color: rgb(238, 238, 238);
 }
+
+
+
+
+
+
+.full_name_fx{
+    position: absolute;
+    right: 15vw;
+    top: 1.9vw;
+}
+
+ /* toggle in label designing */
+ .toggle2 {
+    position : absolute ;
+    /* display : inline-block; */
+    width : 2.5vw;
+    height : 1.2vw;
+    background-color: rgb(231, 231, 231);
+    border-radius: 30vw;
+    border: 0vw solid ;
+    cursor: pointer;
+
+}
+      
+/* After slide changes */
+.toggle2:after {
+    content: '';
+    position: absolute;
+    width: 1vw;
+    height: 1vw;
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255);
+    top: 0.1vw; 
+    left: 0.1vw;
+    transition:  all 0.5s;
+    cursor: pointer;
+    border: 0vw solid;
+}
+      
+
+      
+/* Checkbox checked effect */
+.checkbox1:checked + .toggle2::after {
+    left : 1.4vw; 
+}
+      
+/* Checkbox checked toggle label bg color */
+.checkbox1:checked + .toggle1 {
+    background-color: rgb(161, 161, 161);
+}
+      
+/* Checkbox vanished */
+.checkbox1 { 
+    display : none;
+}
+
+
+
+
+/* *************** */
+
+.icons_fx{
+    position: absolute;
+    right: 7vw;
+    top: 1.9vw;
+    /* left: 5vw; */
+}
+
+ /* toggle in label designing */
+ .toggle {
+    position : absolute ;
+    /* display : inline-block; */
+    width : 2.5vw;
+    height : 1.2vw;
+    background-color: rgb(231, 231, 231);
+    border-radius: 30vw;
+    border: 0vw solid ;
+    cursor: pointer;
+
+}
+      
+/* After slide changes */
+.toggle:after {
+    content: '';
+    position: absolute;
+    width: 1vw;
+    height: 1vw;
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255);
+    top: 0.1vw; 
+    left: 0.1vw;
+    transition:  all 0.5s;
+    cursor: pointer;
+    border: 0vw solid;
+}
+      
+
+      
+/* Checkbox checked effect */
+.checkbox:checked + .toggle::after {
+    left : 1.4vw; 
+}
+      
+/* Checkbox checked toggle label bg color */
+.checkbox:checked + .toggle {
+    background-color: rgb(161, 161, 161);
+}
+      
+/* Checkbox vanished */
+.checkbox { 
+    display : none;
+}
