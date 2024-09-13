@@ -1,6 +1,4 @@
-
-
-  #user_info{
+#user_info {
     position: absolute;
     background-color: rgb(204, 204, 204);
     border: 0vw solid;
@@ -9,48 +7,50 @@
     cursor: pointer;
     right: 0;
     top: 1vw;
-  }
+}
 
-.butt{
+.butt {
     position: absolute;
     width: 5vw;
     height: 2vw;
-   background-color: rgb(255, 255, 255);
-   /* color: white; */
+    background-color: rgb(255, 255, 255);
+    /* color: white; */
 
-   font-family: Arial black;
-   font-size: 0.8vw  ;
-   border: 0.2vw solid;
-   /* border-style: dotted; */
-   top: 5.5vw;
-   left: 15vw;
+    font-family: Arial black;
+    font-size: 0.8vw;
+    border: 0.2vw solid;
+    /* border-style: dotted; */
+    top: 5.5vw;
+    left: 15vw;
 }
-.butt:hover{
+
+.butt:hover {
     background-color: rgb(226, 226, 226);
 }
 
 
 
 
-.butt2{
+.butt2 {
     position: absolute;
     width: 3vw;
     height: 2vw;
-   background-color: rgb(255, 255, 255);
-   /* color: white; */
-   font-family: Arial black;
-   font-size: 0.8vw;
-   border: 0.2vw solid;
-   top: 5.5vw;
-   left: 20.8vw;
-   /* border-style: dotted; */
+    background-color: rgb(255, 255, 255);
+    /* color: white; */
+    font-family: Arial black;
+    font-size: 0.8vw;
+    border: 0.2vw solid;
+    top: 5.5vw;
+    left: 20.8vw;
+    /* border-style: dotted; */
 }
-.butt2:hover{
+
+.butt2:hover {
     background-color: rgb(207, 207, 207);
 }
 
 
-.pen-img{
+.pen-img {
     /* padding: cm; */
     /* margin: 5px; */
 
@@ -63,17 +63,17 @@
     top: 8px;
     color: white;
     border: 0px solid;
-    background-color: rgb(15, 106, 190); 
+    background-color: rgb(15, 106, 190);
     z-index: 100;
 }
 
-.pen-img:hover{ 
+.pen-img:hover {
     background-color: rgb(49, 66, 161);
 }
 
 
 
-#clear2{
+#clear2 {
     position: absolute;
     border: 1px solid;
     background-color: white;
@@ -81,7 +81,8 @@
     margin-left: 13cm;
     margin-top: -2cm;
 }
-.pen-img3{
+
+.pen-img3 {
     /* padding: cm; */
     /* margin: 5px; */
 
@@ -94,16 +95,16 @@
     top: 8px;
     color: white;
     border: 0px solid;
-    background-color: rgb(37, 192, 23); 
+    background-color: rgb(37, 192, 23);
     z-index: 100;
 }
 
-.pen-img3:hover{ 
+.pen-img3:hover {
     background-color: rgb(49, 66, 161);
 }
 
 
-.pen-img4{
+.pen-img4 {
     /* padding: cm; */
     /* margin: 5px; */
 
@@ -117,7 +118,7 @@
     /* top: 8px; */
     /* color: white; */
     border: 0.1vw solid;
-    background-color: rgb(255, 255, 255); 
+    background-color: rgb(255, 255, 255);
     z-index: 100;
     left: 3.3vw;
     right: 0vw;
@@ -125,8 +126,6 @@
     /* left: 2vw; */
 }
 
-.pen-img4:hover{ 
+.pen-img4:hover {
     background-color: rgb(238, 238, 238);
 }
-
-

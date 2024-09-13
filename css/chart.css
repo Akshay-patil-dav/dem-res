@@ -3,18 +3,19 @@
   padding: 0.8vw;
   height: 0.1vw;
   border: 0.1vw solid;
-   /* margin: 5px; */
-   /* border-radius: 8px; */
-   cursor: grab;
-   /* border-radius: 10%; */
-  
-   /* top: 0.2cm; */
-   bottom: 0.3vw;
+  /* margin: 5px; */
+  /* border-radius: 8px; */
+  cursor: grab;
+  /* border-radius: 10%; */
 
-   /* left: 0.5vw; */
-   z-index: 4;
+  /* top: 0.2cm; */
+  bottom: 0.3vw;
+
+  /* left: 0.5vw; */
+  z-index: 4;
 }
-#arrayDisplay{
+
+#arrayDisplay {
   position: absolute;
   overflow: hidden;
   border: 0.2vw solid;
@@ -23,7 +24,8 @@
   top: 8vw;
   left: 1vw;
 }
-.b2{
+
+.b2 {
   position: absolute;
   rotate: 45deg;
   left: 5.7vw;
@@ -32,34 +34,38 @@
 
 }
 
-#dropBox1{
+#dropBox1 {
   position: absolute;
   padding: 4vw;
   /* background-color: hsl(0, 100%, 50%); */
   border: 0.1vh solid;
 }
-#dropBox2{
+
+#dropBox2 {
   position: absolute;
   padding: 4vw;
   /* background-color: red; */
   border: 0.1vh solid;
   left: 8vw;
 }
-#dropBox3{
+
+#dropBox3 {
   position: absolute;
   padding: 4vw;
   /* background-color: red; */
   border: 0.1vh solid;
   left: 16vw;
 }
-#dropBox4{
+
+#dropBox4 {
   position: absolute;
   padding: 4vw;
   /* background-color: red; */
   border: 0.1vh solid;
   left: 24vw;
 }
-#dropBox5{
+
+#dropBox5 {
   position: absolute;
   padding: 4vw;
   /* background-color: red; */
@@ -68,14 +74,15 @@
 }
 
 
-#dropBox6{
+#dropBox6 {
   position: absolute;
   padding: 4vw;
   top: 8vw;
   /* background-color: hsl(0, 100%, 50%); */
   border: 0.1vh solid;
 }
-#dropBox7{
+
+#dropBox7 {
   position: absolute;
   padding: 4vw;
   top: 8vw;
@@ -83,7 +90,8 @@
   border: 0.1vh solid;
   left: 8vw;
 }
-#dropBox8{
+
+#dropBox8 {
   position: absolute;
   padding: 4vw;
   top: 8vw;
@@ -91,7 +99,8 @@
   border: 0.1vh solid;
   left: 16vw;
 }
-#dropBox9{
+
+#dropBox9 {
   position: absolute;
   padding: 4vw;
   top: 8vw;
@@ -99,7 +108,8 @@
   border: 0.1vh solid;
   left: 24vw;
 }
-#dropBox10{
+
+#dropBox10 {
   position: absolute;
   padding: 4vw;
   top: 8vw;
@@ -109,14 +119,15 @@
 }
 
 
-#dropBox11{
+#dropBox11 {
   position: absolute;
   padding: 4vw;
   top: 16vw;
   /* background-color: hsl(0, 100%, 50%); */
   border: 0.1vh solid;
 }
-#dropBox12{
+
+#dropBox12 {
   position: absolute;
   padding: 4vw;
   top: 16vw;
@@ -124,7 +135,8 @@
   border: 0.3vh solid;
   left: 7.9vw;
 }
-#dropBox13{
+
+#dropBox13 {
   position: absolute;
   padding: 4vw;
   top: 16vw;
@@ -132,7 +144,8 @@
   border: 0.1vh solid;
   left: 16vw;
 }
-#dropBox14{
+
+#dropBox14 {
   position: absolute;
   padding: 4vw;
   top: 16vw;
@@ -140,7 +153,8 @@
   border: 0.1vh solid;
   left: 24vw;
 }
-#dropBox15{
+
+#dropBox15 {
   position: absolute;
   padding: 4vw;
   top: 16vw;
@@ -150,14 +164,15 @@
 }
 
 
-#dropBox16{
+#dropBox16 {
   position: absolute;
   padding: 4vw;
   top: 24vw;
   /* background-color: hsl(0, 100%, 50%); */
   border: 0.1vh solid;
 }
-#dropBox17{
+
+#dropBox17 {
   position: absolute;
   padding: 4vw;
   top: 24vw;
@@ -165,7 +180,8 @@
   border: 0.1vh solid;
   left: 8vw;
 }
-#dropBox18{
+
+#dropBox18 {
   position: absolute;
   padding: 4vw;
   top: 24vw;
@@ -173,7 +189,8 @@
   border: 0.1vh solid;
   left: 16vw;
 }
-#dropBox19{
+
+#dropBox19 {
   position: absolute;
   padding: 4vw;
   top: 24vw;
@@ -181,7 +198,8 @@
   border: 0.1vh solid;
   left: 24vw;
 }
-#dropBox20{
+
+#dropBox20 {
   position: absolute;
   padding: 4vw;
   top: 24vw;
@@ -191,7 +209,7 @@
 }
 
 
-#chartlagn{
+#chartlagn {
   position: absolute;
   top: 5vw;
   font-size: 2vw;
@@ -199,42 +217,47 @@
 
 }
 
-#nu1{
+#nu1 {
   position: absolute;
   font-size: 1.5vw;
   left: 11.1vw;
   top: 9vw;
   z-index: 10;
 }
-#nu10{
+
+#nu10 {
   position: absolute;
   font-size: 1.5vw;
   left: 12.3vw;
   top: 10.5vw;
   z-index: 10;
 }
-#nu7{
+
+#nu7 {
   position: absolute;
   font-size: 1.5vw;
   left: 11.1vw;
   top: 12vw;
   z-index: 10;
 }
-#nu4{
+
+#nu4 {
   position: absolute;
   font-size: 1.5vw;
   left: 9.8vw;
   top: 10.5vw;
   z-index: 10;
 }
-#nu2{
+
+#nu2 {
   position: absolute;
   font-size: 1.5vw;
   left: 5.4vw;
   top: 3.7vw;
   z-index: 10;
 }
-#nu3{
+
+#nu3 {
   position: absolute;
   font-size: 1.5vw;
   left: 4.6vw;
@@ -242,28 +265,31 @@
   z-index: 10;
 }
 
-#nu12{
+#nu12 {
   position: absolute;
   font-size: 1.5vw;
   left: 16.4vw;
   top: 3.5vw;
   z-index: 10;
 }
-#nu11{
+
+#nu11 {
   position: absolute;
   font-size: 1.5vw;
   left: 17.9vw;
   top: 5vw;
   z-index: 10;
 }
-#nu9{
+
+#nu9 {
   position: absolute;
   font-size: 1.5vw;
   left: 17.9vw;
   top: 16.2vw;
   z-index: 10;
 }
-#nu8{
+
+#nu8 {
   position: absolute;
   font-size: 1.5vw;
   left: 16.8vw;
@@ -271,14 +297,15 @@
   z-index: 10;
 }
 
-#nu6{
+#nu6 {
   position: absolute;
   font-size: 1.5vw;
   left: 5.4vw;
   top: 17.5vw;
   z-index: 10;
 }
-#nu5{
+
+#nu5 {
   position: absolute;
   font-size: 1.5vw;
   left: 4vw;

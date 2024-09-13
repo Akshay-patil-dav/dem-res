@@ -1,59 +1,63 @@
-.color{
+.color {
     position: absolute;
     width: 2vw;
     height: 2vw;
     border-radius: 100%;
     border: 0vw solid;
 }
-.col1{
+
+.col1 {
     position: relative;
     right: 1cm;
     /* top: 13cm; */
     /* background-color: rgb(255, 255, 255); */
 }
 
-.pen{
+.pen {
     /* border: 1px solid; */
     height: 2.5vw;
-    width:8vw;
+    width: 8vw;
     position: absolute;
     border: 0.1vw solid;
     top: 38.2vw;
     right: 82.9vw;
     /* right: 0.8cm; */
     /* border-radius: 20px; */
-    
+
 }
 
 
 
 
-.colbox1{
+.colbox1 {
     position: absolute;
     top: 7.5vw;
     left: 8vw;
     cursor: pointer;
 }
 
-.colbox2{
+.colbox2 {
     position: absolute;
     top: 7.5vw;
     left: 12vw;
     cursor: pointer;
 }
-.colbox3{
+
+.colbox3 {
     position: absolute;
     top: 7.5vw;
     left: 16vw;
     cursor: pointer;
 }
-.colbox4{
+
+.colbox4 {
     position: absolute;
     top: 7.5vw;
     left: 20vw;
     cursor: pointer;
 }
-.colbox5{
+
+.colbox5 {
     position: absolute;
     top: 7.5vw;
     left: 24vw;
@@ -63,32 +67,35 @@
 /* /********************************** */
 
 
-.colbox6{
+.colbox6 {
     position: absolute;
     top: 12.5vw;
     left: 8vw;
     cursor: pointer;
 }
 
-.colbox7{
+.colbox7 {
     position: absolute;
     top: 12.5vw;
     left: 12vw;
     cursor: pointer;
 }
-.colbox8{
+
+.colbox8 {
     position: absolute;
     top: 12.5vw;
     left: 16vw;
     cursor: pointer;
 }
-.colbox9{
+
+.colbox9 {
     position: absolute;
     top: 12.5vw;
     left: 20vw;
     cursor: pointer;
 }
-.colbox10{
+
+.colbox10 {
     position: absolute;
     top: 12.5vw;
     left: 24vw;
@@ -98,11 +105,11 @@
 /* /********************************** */
 
 
-.Box_Color{
+.Box_Color {
     position: absolute;
     font-size: 0.9vw;
     /* bottom: 0; */
     top: 13vw;
     left: 1vw;
-    
+
 }

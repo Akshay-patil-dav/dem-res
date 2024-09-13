@@ -6,126 +6,128 @@
 @import url("./responcive/re120.css");
 @import url("./box-flx.css");
 
-*{
+* {
   padding: 0;
   margin: 0;
 }
 
-.color-palette{
+.color-palette {
   position: absolute;
   border: 0.1vw solid;
   height: 2.5vw;
   width: 7.5vw;
-  
+
   left: 1vw;
   top: 38.2vw;
 }
 
 
-#cardbox1{
-    /* background-color: white; */
-     border: 0.1cm solid;
-     overflow: hidden;
-     position: relative;
-     right: 0.8cm;
-            height: 760px; 
-            width: 600px;
-            /* border-radius: 20px; */
-            z-index: -5;
-/* 
-            box-shadow: 0 0 5px 0 ;
-            background: inherit;
-            backdrop-filter: blur(10px); */
-            /* <!--margin: 100px; according to your need--> */
-
-}
-#cardbox2{
+#cardbox1 {
+  /* background-color: white; */
   border: 0.1cm solid;
   overflow: hidden;
   position: relative;
   right: 0.8cm;
-         height: 760px; 
-         width: 600px;
-         /* border-radius: 20px; */
-         z-index: -5;
+  height: 760px;
+  width: 600px;
+  /* border-radius: 20px; */
+  z-index: -5;
+  /* 
+            box-shadow: 0 0 5px 0 ;
+            background: inherit;
+            backdrop-filter: blur(10px); */
+  /* <!--margin: 100px; according to your need--> */
 
 }
-.card11{
-    position: relative;
-    right: 1cm;
+
+#cardbox2 {
+  border: 0.1cm solid;
+  overflow: hidden;
+  position: relative;
+  right: 0.8cm;
+  height: 760px;
+  width: 600px;
+  /* border-radius: 20px; */
+  z-index: -5;
+
 }
 
-canvas{
-    /* background-color: red; */
-    position: absolute;
-    /* background-color: red; */
-    width: 100%;
-    /* z-index: 10; */
-    /* position: fixed; */
-    /* height: 500%; */
-    height: auto;
-    /* display: flexbox; */
-
-    /* position: fixed; */
+.card11 {
+  position: relative;
+  right: 1cm;
 }
 
-#drawingArea{
-    /* z-index: +8; */
+canvas {
+  /* background-color: red; */
+  position: absolute;
+  /* background-color: red; */
+  width: 100%;
+  /* z-index: 10; */
+  /* position: fixed; */
+  /* height: 500%; */
+  height: auto;
+  /* display: flexbox; */
+
+  /* position: fixed; */
 }
 
-.colorbox{
-    border: 1cm;
-    /* border-radius: 2; */
-    border-color: blue;
-    width: 1cm;
-    height: 1cm;
-    margin: 0.2cm;
-    border: 0.1cm solid;
+#drawingArea {
+  /* z-index: +8; */
+}
+
+.colorbox {
+  border: 1cm;
+  /* border-radius: 2; */
+  border-color: blue;
+  width: 1cm;
+  height: 1cm;
+  margin: 0.2cm;
+  border: 0.1cm solid;
 }
 
 
-#text99{
+#text99 {
   display: none;
 }
 
-#cardbox1{
+#cardbox1 {
 
-    /* z-index: -1; */
-    /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOREACs80RzopaANyYLQ7hUHo7xiaEWNIE0Q&s'); */
+  /* z-index: -1; */
+  /* background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOREACs80RzopaANyYLQ7hUHo7xiaEWNIE0Q&s'); */
 }
 
-.lan{
-    position: relative;
-    left: 38cm;
-    width: 4cm;
-    cursor: pointer;
+.lan {
+  position: relative;
+  left: 38cm;
+  width: 4cm;
+  cursor: pointer;
 }
 
 @media only screen and (max-width: 1954px) {
-  .lan{
+  .lan {
     position: relative;
     left: 33.5cm;
     width: 4cm;
     cursor: pointer;
-}
-}
-
-.langg{
-    position: relative;
-    top: 10px;
-    right: 5px;
+  }
 }
 
-.sel11{
-    width: 5cm;
-    position: relative;
-    left: 9.4cm;
-    top: 2.5cm;
-    z-index: 1;
+.langg {
+  position: relative;
+  top: 10px;
+  right: 5px;
+}
+
+.sel11 {
+  width: 5cm;
+  position: relative;
+  left: 9.4cm;
+  top: 2.5cm;
+  z-index: 1;
 }
 
 
-.box-right{
+.box-right {
   position: relative;
   top: 0.3cm;
 }
@@ -148,6 +150,7 @@ canvas{
   visibility: hidden;
   opacity: 0;
 }
+
 .overlay:target {
   visibility: visible;
   opacity: 1;
@@ -168,6 +171,7 @@ canvas{
   color: #333;
   font-family: Tahoma, Arial, sans-serif;
 }
+
 .popup .close {
   position: absolute;
   top: 20px;
@@ -178,19 +182,22 @@ canvas{
   text-decoration: none;
   color: #333;
 }
+
 .popup .close:hover {
   color: #06D85F;
 }
+
 .popup .content {
   max-height: 30%;
   overflow: auto;
 }
 
-@media screen and (max-width: 700px){
-  .box{
+@media screen and (max-width: 700px) {
+  .box {
     width: 70%;
   }
-  .popup{
+
+  .popup {
     width: 70%;
   }
 }
@@ -198,44 +205,45 @@ canvas{
 
 /* *************************popupwindows****************************** */
 .popup {
-    display: none; /* Hidden by default */
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
-    z-index: 100;
+  display: none;
+  /* Hidden by default */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 100;
 }
 
 .popup-content {
-    position: relative;
-    background-color: white;
-    margin: 15% auto;
-    padding: 20px;
-    width: 60%;
-    max-width: 300px;
-    border-radius: 10px;
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
-    z-index: 100;
+  position: relative;
+  background-color: white;
+  margin: 15% auto;
+  padding: 20px;
+  width: 60%;
+  max-width: 300px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+  z-index: 100;
 }
 
 .closeBtn {
-    position: absolute;
-    top: 10px;
-    right: 20px;
-    color: #aaa;
-    font-size: 24px;
-    font-weight: bold;
-    cursor: pointer;
-    z-index: 100;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  color: #aaa;
+  font-size: 24px;
+  font-weight: bold;
+  cursor: pointer;
+  z-index: 100;
 }
 
 .closeBtn:hover {
-    color: #000;
+  color: #000;
 }
 
-.sellll{
+.sellll {
   z-index: 100;
 }
 
@@ -289,12 +297,20 @@ canvas{
 
 
 
-#pall1 , #pall2 , #pall3 , #pall4 , #pall5 , #pall6 , #pall7 , #pall8 , #pall9{
+#pall1,
+#pall2,
+#pall3,
+#pall4,
+#pall5,
+#pall6,
+#pall7,
+#pall8,
+#pall9 {
   display: none;
 }
 
 
-.rachisel{
+.rachisel {
   position: absolute;
   width: 25vw;
   font-size: 1vw;
@@ -303,14 +319,15 @@ canvas{
   left: 1vw;
 }
 
-.imgcustselect{
+.imgcustselect {
   position: absolute;
   width: 14vw;
   font-size: 1.2vw;
   right: 0.2vw;
   top: 0.4vw;
 }
-.textarears{
+
+.textarears {
   position: absolute;
   top: 4vw;
   height: 25vw;
@@ -321,12 +338,12 @@ canvas{
   font-family: Arial black;
 }
 
-.pen1{
+.pen1 {
   position: absolute;
-   left: 5vw;
-   border: 0.1vw solid;
-   width:6.5vw ;
-   height: 2.5vw;
-   top: 38.2vw;
-   left: 17.6vw;
+  left: 5vw;
+  border: 0.1vw solid;
+  width: 6.5vw;
+  height: 2.5vw;
+  top: 38.2vw;
+  left: 17.6vw;
 }

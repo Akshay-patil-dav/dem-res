@@ -39,8 +39,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 function initializeUniqueDrawingCanvas() {
     myUniqueCanvas = document.createElement('canvas');
-    myUniqueCanvas.width = window.innerWidth ;
-    myUniqueCanvas.height = window.innerHeight ;
+    myUniqueCanvas.width = window.innerWidth;
+    myUniqueCanvas.height = window.innerHeight;
     myUniqueCanvas.style.position = 'absolute';
     myUniqueCanvas.style.top = '0';
     myUniqueCanvas.style.left = '0';

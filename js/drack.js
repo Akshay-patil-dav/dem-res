@@ -1,8 +1,8 @@
 
 
 
-   // script.js
-   $(document).ready(function() {
+// script.js
+$(document).ready(function () {
     let elementCount = 1;
     let duplicationEnabled = true;
 
@@ -20,8 +20,8 @@
         containment: "body"
     });
 
-     // Make the element draggable
-     $(".mydiv3").draggable({
+    // Make the element draggable
+    $(".mydiv3").draggable({
         containment: "body"
     });
     $(".mydiv4").draggable({
@@ -32,8 +32,8 @@
         containment: "body"
     });
 
-     // Make the element draggable
-     $(".mydiv6").draggable({
+    // Make the element draggable
+    $(".mydiv6").draggable({
         containment: "body"
     });
     $(".mydiv7").draggable({
@@ -44,22 +44,22 @@
         containment: "body"
     });
 
-     // Make the element draggable
-     $(".mydiv9").draggable({
+    // Make the element draggable
+    $(".mydiv9").draggable({
         containment: "body"
     });
 
-    
 
- 
-       // Duplicate the element
-       $("#duplicate-mydiv8").click(function() {
+
+
+    // Duplicate the element
+    $("#duplicate-mydiv8").click(function () {
         elementCount++;
         let newElement = $("#mydiv8").clone();
         newElement.attr("id", "element-" + elementCount);
         newElement.css({
             position: "absolute",
-            top: "35.5vw",  
+            top: "35.5vw",
             left: "2vw",
             // zindex: "100"
         }).appendTo("body");
@@ -68,7 +68,7 @@
         });
     });
 
-    $("#duplicate-mydivmoon").click(function() {
+    $("#duplicate-mydivmoon").click(function () {
         elementCount++;
         let newElement = $("#mydiv2").clone();
         newElement.attr("id", "element-" + elementCount);
@@ -82,7 +82,7 @@
         });
     });
 
-    $("#duplicate-mydivMercury").click(function() {
+    $("#duplicate-mydivMercury").click(function () {
         elementCount++;
         let newElement = $("#mydiv").clone();
         newElement.attr("id", "element-" + elementCount);
@@ -96,7 +96,7 @@
         });
     });
 
-    $("#duplicate-mydivvenus").click(function() {
+    $("#duplicate-mydivvenus").click(function () {
         elementCount++;
         let newElement = $("#mydiv1").clone();
         newElement.attr("id", "element-" + elementCount);
@@ -111,7 +111,7 @@
     });
 
 
-    $("#duplicate-mydivMars").click(function() {
+    $("#duplicate-mydivMars").click(function () {
         elementCount++;
         let newElement = $("#mydiv3").clone();
         newElement.attr("id", "element-" + elementCount);
@@ -125,14 +125,14 @@
         });
     });
 
-    
-    $("#duplicate-btnJupiter").click(function() {
+
+    $("#duplicate-btnJupiter").click(function () {
         elementCount++;
         let newElement = $("#mydiv4").clone();
         newElement.attr("id", "element-" + elementCount);
         newElement.css({
-             position: "absolute",
-             top: "35.5vw",
+            position: "absolute",
+            top: "35.5vw",
             left: "13vw"
         }).appendTo("body");
         newElement.draggable({
@@ -141,7 +141,7 @@
     });
 
 
-    $("#duplicate-mydivSaturn").click(function() {
+    $("#duplicate-mydivSaturn").click(function () {
         elementCount++;
         let newElement = $("#mydiv6").clone();
         newElement.attr("id", "element-" + elementCount);
@@ -156,7 +156,7 @@
         });
     });
 
-    $("#duplicate-mydivRahu").click(function() {
+    $("#duplicate-mydivRahu").click(function () {
         elementCount++;
         let newElement = $("#mydiv7").clone();
         newElement.attr("id", "element-" + elementCount);
@@ -172,7 +172,7 @@
     });
 
 
-    $("#duplicate-mydivKetu").click(function() {
+    $("#duplicate-mydivKetu").click(function () {
         elementCount++;
         let newElement = $("#mydiv9").clone();
         newElement.attr("id", "element-" + elementCount);
@@ -183,7 +183,7 @@
             // height: "",
             top: "35.5vw",
             left: "20.3vw"
-            
+
         }).appendTo("body");
         newElement.draggable({
             containment: "body"
@@ -196,13 +196,13 @@
     // $("#remove").click(function() {
     //     $(".#mydiv8").remove(); // Remove all cloned elements
     // });
-   
+
     // $("#remove").click(function() {
     //     // alert("wdsk")
     //     duplicationEnabled = true;
     // });
 
-    $("#remove").click(function() {
+    $("#remove").click(function () {
         // Remove all cloned elements
         $("[id^='element-']").remove();
 

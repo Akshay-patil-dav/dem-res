@@ -1,37 +1,41 @@
-body{
+body {
     overflow: hidden;
 }
-.header{
+
+.header {
     display: flex;
 }
+
 .left {
     /* background-color: red; */
     width: 25%;
     height: 39vw;
 
     margin: 1vw;
-} 
+}
+
 .center {
     position: absolute;
     /* background-color: rgb(253, 160, 160); */
-    width: 30%;    
+    width: 30%;
     height: 35vw;
     margin: 1vw;
     left: 30vw;
     top: 7vw;
     border: 0.2vw solid;
 
-} 
- .right{
+}
+
+.right {
     position: absolute;
     /* display: none; */
     /* background-color: rgb(102, 48, 48); */
     width: 30%;
     /* height: 5vw; */
-    left: 63vw;
+    left: 65vw;
     top: 7vw;
     height: 35vw;
     border: 0.2vw solid;
     margin: 1vw;
 
-} 
+}

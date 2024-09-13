@@ -1,5 +1,4 @@
-
-.boxses{
+.boxses {
   position: relative;
   /* background-color: rgb(115, 77, 77); */
   /* position: relative; */
@@ -9,125 +8,137 @@
 
 }
 
-#icons , #namemm{
+#icons,
+#namemm {
   position: absolute;
   font-size: 0.8vw;
   /* left: 14vw; */
-  
+
 
 }
 
-#icons{
+#icons {
   top: 2vw;
   left: 20vw;
 }
-#namemm{
+
+#namemm {
   top: 2vw;
   left: 13vw;
 }
-  .butt2{
-      margin-right: 8cm;
-    /* right: 50 cm; */
-  }
-  .btn{
-    position: absolute;
-    right: 0cm;
-    bottom: 0.5cm;
-  }
-    .box-center , .box-left , .box-right{
 
-        height: 25cm;
-        /* margin: -5cm; */
-        position: relative;
-        /* right: cm; */
-        left: 1cm;
-        /* background-color: red; */
-    }
+.butt2 {
+  margin-right: 8cm;
+  /* right: 50 cm; */
+}
 
-    .buts{
-        position: relative;
-        /* left: -5cm; */
+.btn {
+  position: absolute;
+  right: 0cm;
+  bottom: 0.5cm;
+}
 
-    }
-    .box-center{
-      position: absolute;
-      
-    }
-    #cardbox1{
-      position: relative;
-      /* width: 2cm; */
-      /* background-color: red; */
-      left: 12.5cm;
-    }
-    #cardbox2{
-      position: relative;
-      /* width: 2cm; */
-      /* background-color: red; */
-      left: 10cm;
-    }
+.box-center,
+.box-left,
+.box-right {
 
+  height: 25cm;
+  /* margin: -5cm; */
+  position: relative;
+  /* right: cm; */
+  left: 1cm;
+  /* background-color: red; */
+}
 
-    #arrayDisplay{
-        position: relative;
-        right: 5cm;
-        /* left: 0.cm; */
-    }
+.buts {
+  position: relative;
+  /* left: -5cm; */
 
-  #onButton{
-    position: relative;
-    right: 7.3cm;
-    /* bottom: 0.8cm; */
-  }
-    .box-top-al{
-      position: relative;
-      right: 0.4cm;
-    }
+}
 
-    .pen1{
-        position: absolute;
-        /* right: cm; */
-        left: -7.3cm;
-        
-        /* left: 1cm; */
-    }
+.box-center {
+  position: absolute;
 
-    #flexSwitchCheckDefault{
-        position: relative;
-        left: -5cm;
-        /* right: 2cm; */
-    }
+}
+
+#cardbox1 {
+  position: relative;
+  /* width: 2cm; */
+  /* background-color: red; */
+  left: 12.5cm;
+}
+
+#cardbox2 {
+  position: relative;
+  /* width: 2cm; */
+  /* background-color: red; */
+  left: 10cm;
+}
 
 
-  .colorboxinput{
-    position: absolute;
-    width: 2vw;
-    height: 2vw;
-    border: 0.1vw solid;
-    bottom: 0.2vw;
-    left: 5.5vw;
-  }
+#arrayDisplay {
+  position: relative;
+  right: 5cm;
+  /* left: 0.cm; */
+}
 
-  #penbox{
-    position: absolute;
-    font-size: 1vw;
-    top: 37vw;
-    right: 89vw;
-  }
+#onButton {
+  position: relative;
+  right: 7.3cm;
+  /* bottom: 0.8cm; */
+}
 
-  #onButton{
-    position: absolute;
-    font-size: 1vw;
-    top: 37vw;
-    /* right: 8vw; */
-    left: 17.7vw;
-  }
-  .sellang{
-    position: absolute;
-    width: 5vw;
-    height: 2vw;
-    font-size: 1vw;
-    border: 0.1vw solid;
-    text-align: center;
-    left: 58vw;
-    bottom: 37vw;
-  }
+.box-top-al {
+  position: relative;
+  right: 0.4cm;
+}
+
+.pen1 {
+  position: absolute;
+  /* right: cm; */
+  left: -7.3cm;
+
+  /* left: 1cm; */
+}
+
+#flexSwitchCheckDefault {
+  position: relative;
+  left: -5cm;
+  /* right: 2cm; */
+}
+
+
+.colorboxinput {
+  position: absolute;
+  width: 2vw;
+  height: 2vw;
+  border: 0.1vw solid;
+  bottom: 0.2vw;
+  left: 5.5vw;
+}
+
+#penbox {
+  position: absolute;
+  font-size: 1vw;
+  top: 37vw;
+  right: 89vw;
+}
+
+#onButton {
+  position: absolute;
+  font-size: 1vw;
+  top: 37vw;
+  /* right: 8vw; */
+  left: 17.7vw;
+}
+
+.sellang {
+  position: absolute;
+  width: 5vw;
+  height: 2vw;
+  font-size: 1vw;
+  border: 0.1vw solid;
+  text-align: center;
+  left: 58vw;
+  bottom: 37vw;
+}
