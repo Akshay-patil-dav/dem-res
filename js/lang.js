@@ -22,6 +22,12 @@ function LANG(lang) {
             // document.getElementById('onButton').innerHTML = 'तीर'
             // document.getElementById('text99').innerHTML = 'के';
             // document.getElementById('chartlagn').style.display = 'none'
+             document.getElementById('plant').innerHTML = 'ग्रहों'
+             document.getElementById('colorbox').innerHTML = 'रंग';
+             document.getElementById('penbox').innerHTML = 'कलम'
+
+    document.getElementById('onButton').innerHTML = 'तीर'
+
             arr(l1);
             break;
         case 'Eng':
@@ -95,25 +101,27 @@ function arr(l1) {
     document.getElementById('ph3').innerHTML = 'फोन नंबर'
 
     document.getElementById('colorbox').innerHTML = 'रंग'
-    document.getElementById('penbox').innerHTML = 'कलम'
-    document.getElementById('arrowbox').innerHTML = 'तीर'
+    
     document.getElementById('exampleModalLabel').innerHTML = 'यूजर जानकारी'
-
+   
 
 
     document.getElementById('swcl').style.marginLeft = '2cm'
 }
 
 function eng() {
-    document.getElementById('text1').innerHTML = ' <div id="text1" > Sun </div>';
-    document.getElementById('text2').innerHTML = ' <div id="text1" > Moon </div>';
-    document.getElementById('text3').innerHTML = ' <div id="text1" > Mercury </div>';
-    document.getElementById('text4').innerHTML = ' <div id="text1" > venus </div>';
-    document.getElementById('text5').innerHTML = ' <div id="text1" > Mars </div>';
-    document.getElementById('text6').innerHTML = ' <div id="text1" > Jupiter </div>';
-    document.getElementById('text7').innerHTML = ' <div id="text1" > Saturn </div>';
-    document.getElementById('text8').innerHTML = ' <div id="text1" > Rahu </div>';
-    document.getElementById('text9').innerHTML = ' <div id="text1" > Ketu </div>';
+
+    document.getElementById('plant').innerHTML = 'Planets';
+
+    document.getElementById('text1').innerHTML = ' Sun';
+    document.getElementById('text2').innerHTML = ' Moon';
+    document.getElementById('text3').innerHTML = ' Mercury';
+    document.getElementById('text4').innerHTML = ' venus';
+    document.getElementById('text5').innerHTML = ' Mars';
+    document.getElementById('text6').innerHTML = ' Jupiter';
+    document.getElementById('text7').innerHTML = ' Saturn';
+    document.getElementById('text8').innerHTML = ' Rahu';
+    document.getElementById('text9').innerHTML = ' Ketu';
 
     document.getElementById('namemm').innerHTML = 'Names';
 

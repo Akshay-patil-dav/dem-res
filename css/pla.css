@@ -141,7 +141,8 @@
 #tex3 {
   position: absolute;
   /* background-color: red; */
-  left: -0.4vw;
+  font-size: 0.8vw;
+  left: 0vw;
   top: 0.1vw;
 }
 
@@ -228,10 +229,14 @@
         font-size: 0.8vw;
       }
       #text2{
+        position: relative;
+        right: 0.3vw;
         font-size: 0.8vw;
       }
       #text3{
-        font-size: 0.8vw;
+        position: relative;
+        right: 0.1vw;
+        font-size: 0.6vw;
       }
       #text4{
         font-size: 0.8vw;
