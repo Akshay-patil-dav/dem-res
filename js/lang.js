@@ -3,7 +3,7 @@ function LANG(lang) {
     // alert(lang)
     // 'रीसेट',
     const l1 = ['सूरज', 'चंद्रमा', 'बुध', 'शुक्र', 'मंगल', 'बृहस्पति', 'शनि', 'राहु', 'केतु', 'रीसेट', 'नाम', 'आइकन', 'डुबालिकेट', 'चुनना', 'सीमा रंग', 'बॉक्स रंग'
-        , 'मेनू चुनें', 'एआरआईएस', 'वृषभ', 'मिथुन', 'कैंसर', 'सिंह', 'कन्या', 'तुल', 'वृश्चिक', 'धनुराशि', 'मकर', 'कुम्भ', 'मीन राशि', 'पूरा नाम', 'ईमेल आईडी', 'फोन नंबर'
+        , 'मेनू चुनें', 'एआरआईएस', 'वृषभ', 'मिथुन', 'कैंसर', 'सिंह', 'कन्या', 'तुल', 'वृश्चिक', 'धनुराशि', 'मकर', 'कुम्भ', 'मीन राशि', 'पूरा नाम', 'ईमेल', 'फोन नंबर'
     ];
 
     // alert(val)
@@ -26,8 +26,38 @@ function LANG(lang) {
              document.getElementById('colorbox').innerHTML = 'रंग';
              document.getElementById('penbox').innerHTML = 'कलम'
 
+         document.getElementById('UserInformation').innerHTML = 'यूजर जानकारी'
     document.getElementById('onButton').innerHTML = 'तीर'
 
+ document.getElementById('sav1').innerHTML = 'जमा करें'
+document.getElementById('sav').innerHTML = 'जमा करें'
+
+    document.getElementById('border').innerHTML = l1[14]
+    document.getElementById('box').innerHTML = l1[15]
+
+
+    document.getElementById('o1').innerHTML = l1[16]
+    document.getElementById('o2').innerHTML = l1[17]
+    document.getElementById('o3').innerHTML = l1[18]
+    document.getElementById('o4').innerHTML = l1[19]
+    document.getElementById('o5').innerHTML = l1[20]
+    document.getElementById('o6').innerHTML = l1[21]
+    document.getElementById('o7').innerHTML = l1[22]
+    document.getElementById('o8').innerHTML = l1[23]
+    document.getElementById('o9').innerHTML = l1[24]
+    document.getElementById('o10').innerHTML = l1[25]
+    document.getElementById('o11').innerHTML = l1[26]
+    document.getElementById('o12').innerHTML = l1[27]
+    document.getElementById('o13').innerHTML = l1[28]
+
+    
+    document.getElementById('fullname').innerHTML = l1[29]
+    document.getElementById('mail').innerHTML = l1[30]
+    document.getElementById('ph').innerHTML = l1[31]
+
+    document.getElementById('fullname1').innerHTML = 'पूरा नाम'
+    document.getElementById('mail2').innerHTML = 'ईमेल आईडी'
+    document.getElementById('ph3').innerHTML = 'फोन नंबर'
             arr(l1);
             break;
         case 'Eng':
@@ -75,8 +105,6 @@ function arr(l1) {
 
 
     document.getElementById('sel1').innerHTML = l1[13]
-    document.getElementById('border').innerHTML = l1[14]
-    document.getElementById('box').innerHTML = l1[15]
 
     document.getElementById('o1').innerHTML = l1[16]
     document.getElementById('o2').innerHTML = l1[17]
