@@ -17,7 +17,7 @@
   height: 2.5vw;
   width: 7.5vw;
 
-  left: 1vw;
+  left: 4vw;
   top: 38.2vw;
 }
 
@@ -362,7 +362,7 @@ canvas {
   width: 5.5vw;
   height: 2.5vw;
   top: 38.2vw;
-  left: 18.5vw;
+  left: 21.5vw;
 }
 
 .textarears{
@@ -390,3 +390,4 @@ canvas {
   position: absolute;
   left:  0.3vw; 
 }
+

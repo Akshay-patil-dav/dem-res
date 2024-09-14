@@ -11,7 +11,9 @@ body {
     width: 25%;
     height: 39vw;
 
+    left: 1vw;
     margin: 1vw;
+    margin-left: 4vw;
 }
 
 .center {

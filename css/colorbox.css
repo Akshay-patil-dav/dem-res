@@ -20,7 +20,7 @@
     position: absolute;
     border: 0.1vw solid;
     top: 38.2vw;
-    right: 85.2vw;
+    right: 82.4vw;
     /* right: 0.8cm; */
     /* border-radius: 20px; */
 
@@ -284,7 +284,7 @@
     height: 2.5vw;
 
     top: 38.2vw;
-    left: 15.15vw;
+    left: 18vw;
 }
 #colorPicker{
     position: absolute;
