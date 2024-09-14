@@ -1,140 +1,39 @@
-.boxses {
-  position: relative;
-  /* background-color: rgb(115, 77, 77); */
+.lan{
+  position:relative;
+  width: 2cm;
+
+}
+#chartlagn{
+  /* background-color: red; */
+  width: 9cm;
+}
+#textarea{
+  margin: 1cm;
+
+  /* margin: 1cm; */
+  /* width: 99%; */
+  /* background-color: red; */
   /* position: relative; */
-  /* width: 100%; */
-  height: 100vw;
-  top: 25vw;
+  /* bottom: 2cm; */
+
+}
+#textarears{
+  /* margin-left: 0.2cm; */
+  width: 100%;
+  height: 14cm;
 
 }
 
-#icons,
-#namemm {
-  position: absolute;
-  font-size: 0.8vw;
-  /* left: 14vw; */
+
+#textarea1{
+  margin: 1cm;
 
 
 }
+#textarears1{
 
-#icons {
-  top: 2vw;
-  left: 21vw;
-}
-
-#namemm {
-  top: 2vw;
-  left: 13vw;
-}
-
-.butt2 {
-  margin-right: 8cm;
-  /* right: 50 cm; */
-}
-
-.btn {
-  position: absolute;
-  right: 0cm;
-  bottom: 0.5cm;
-}
-
-.box-center,
-.box-left,
-.box-right {
-
-  height: 25cm;
-  /* margin: -5cm; */
-  position: relative;
-  /* right: cm; */
-  left: 1cm;
-  /* background-color: red; */
-}
-
-.buts {
-  position: relative;
-  /* left: -5cm; */
-
-}
-
-.box-center {
-  position: absolute;
-
-}
-
-#cardbox1 {
-  position: relative;
-  /* width: 2cm; */
-  /* background-color: red; */
-  left: 12.5cm;
-}
-
-#cardbox2 {
-  position: relative;
-  /* width: 2cm; */
-  /* background-color: red; */
-  left: 10cm;
-}
+  width: 100%;
+  height: 14cm;
 
 
-#arrayDisplay {
-  position: relative;
-  right: 5cm;
-  /* left: 0.cm; */
-}
-
-
-
-.box-top-al {
-  position: relative;
-  right: 0.4cm;
-}
-
-.pen1 {
-  position: absolute;
-  /* right: cm; */
-  left: -7.3cm;
-
-  /* left: 1cm; */
-}
-
-#flexSwitchCheckDefault {
-  position: relative;
-  left: -5cm;
-  /* right: 2cm; */
-}
-
-
-.colorboxinput {
-  position: absolute;
-  width: 2vw;
-  height: 2vw;
-  border: 0.1vw solid;
-  bottom: 0.2vw;
-  left: 5.5vw;
-}
-
-#penbox {
-  position: absolute;
-  font-size: 1vw;
-  top: 37vw;
-  right: 89vw;
-}
-
-#onButton {
-  position: absolute;
-  font-size: 1vw;
-  top: 37vw;
-  /* right: 8vw; */
-  left: 18.5vw;
-}
-
-.sellang {
-  position: absolute;
-  width: 5vw;
-  height: 2vw;
-  font-size: 1vw;
-  border: 0.1vw solid;
-  text-align: center;
-  left: 60vw;
-  bottom: 37vw;
 }

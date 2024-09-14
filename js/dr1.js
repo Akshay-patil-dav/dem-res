@@ -72,7 +72,7 @@ document.getElementById('colorPicker').addEventListener('input', (event) => {
     selectedColor = event.target.value;
 });
 
-document.getElementById('startDrawing').addEventListener('change', function () {
+document.getElementById('startDrawing').addEventListener('change', function() {
     if (this.checked) {
         document.getElementById('drawingArea').style.zIndex = '7';
         drawingModeActive = true;
@@ -91,7 +91,7 @@ document.getElementById('eraseDrawing').addEventListener('click', () => {
 
 document.getElementById('remove').addEventListener('click', () => {
     canvasContext.clearRect(0, 0, canvasElement.width, canvasElement.height);
-
+    
     // Clear additional contexts if necessary (assuming they exist)
     if (typeof arrows !== 'undefined') {
         arrows = [];
