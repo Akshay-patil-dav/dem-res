@@ -243,14 +243,16 @@ function f1(val) {
 
     document.getElementById('icons').style.color = val
    
-    document.getElementById('val11').style.color = val
+    // document.getElementById('val11').style.color = val
 
 
-    document.getElementById('value1').style.color = val
+    // document.getElementById('value1').style.color = val
     document.getElementById('onButton').style.color = val
     document.getElementById('namemm').style.color = val
     document.getElementById('plant').style.color = val
     document.getElementById('remove').style.color = val
+
+    
 
 
     document.getElementById('imm1').style.color = val

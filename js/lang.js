@@ -26,6 +26,7 @@ function LANG(lang) {
              document.getElementById('colorbox').innerHTML = 'रंग';
              document.getElementById('penbox').innerHTML = 'कलम'
 
+
          document.getElementById('UserInformation').innerHTML = 'यूजर जानकारी'
     document.getElementById('onButton').innerHTML = 'तीर'
 
