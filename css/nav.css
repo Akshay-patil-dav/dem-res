@@ -45,6 +45,7 @@ input[type="file"] {
   /* position: absolute; */
   /* right: 15vw; */
   left: 0vw;
+  top: 0;
   /* width: auto; */
 }
 
@@ -52,6 +53,7 @@ input[type="file"] {
   position: absolute;
   /* right: 15vw; */
   left: 4.5vw;
+  top: 0;
   /* width: auto; */
 }
 
@@ -59,23 +61,26 @@ input[type="file"] {
   position: absolute;
   /* right: 15vw; */
   left: 10vw;
+  top: 0;
 }
 
 #email {
   position: absolute;
   /* right: 15vw; */
   left: 14.1vw;
+  top: 0;
 }
 
 #ph {
   position: absolute;
   /* right: 15vw; */
   left: 25.5vw;
+  top: 0;
 }
 
 #phone {
   position: absolute;
   /* right: 15vw; */
   left: 30vw;
-
+  top: 0;
 }
