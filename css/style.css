@@ -340,15 +340,21 @@ canvas {
 
 .pen1 {
   position: absolute;
-  left: 5vw;
+  /* left: 5vw; */
   border: 0.1vw solid;
-  width: 6.5vw;
+  width: 5.5vw;
   height: 2.5vw;
   top: 38.2vw;
-  left: 17.6vw;
+  left: 18.5vw;
 }
 
 .textarears{
    display: none;
 }
 
+
+.del2{
+  position: absolute;
+  /* left:   0vw; */
+  top: 0.2vw;
+}

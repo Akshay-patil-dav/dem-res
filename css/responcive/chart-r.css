@@ -82,11 +82,7 @@
   /* left: 0.cm; */
 }
 
-#onButton {
-  position: relative;
-  right: 7.3cm;
-  /* bottom: 0.8cm; */
-}
+
 
 .box-top-al {
   position: relative;
@@ -129,7 +125,7 @@
   font-size: 1vw;
   top: 37vw;
   /* right: 8vw; */
-  left: 17.7vw;
+  left: 18.5vw;
 }
 
 .sellang {
