@@ -76,17 +76,20 @@
   /* border: 1px solid #d3d3d3; */
 
 }
-#mydiv8{
-  position: relative;
-  top: 1.6vw;
+
+#mydiv8 {
+  position: absolute;
+  top: 1.8vw;
   left: 0.8vw;
 }
-#mydiv{
-  position: relative;
-  left: 4.5vw;
-  top: 1.7vw;
+
+#mydiv {
+  position: absolute;
+  left: 5vw;
+  top: 2vw;
 }
-#mydiv1{
+
+#mydiv1 {
   position: relative;
   left: 6.9vw;
   top: 1.9vw;
@@ -225,43 +228,52 @@
         
       } */
 
-      #text1{
-        font-size: 0.8vw;
-      }
-      #text2{
-        position: relative;
-        right: 0.3vw;
-        font-size: 0.8vw;
-      }
-      #text3{
-        position: relative;
-        right: 0.1vw;
-        font-size: 0.6vw;
-      }
-      #text4{
-        font-size: 0.8vw;
-      }
-      #text5{
-        font-size: 0.8vw;
-      }
-      #text5{
-        font-size: 0.8vw;
-      }
-      #text6{
-        font-size: 0.8vw;
-      }
-      #text7{
-        font-size: 0.8vw;
-      }
-      #text8{
-        font-size: 0.8vw;
-      }
-      #text9{
-        font-size: 0.8vw;
-      }
+#text1 {
+  font-size: 0.8vw;
+}
+
+#text2 {
+  position: relative;
+  right: 0.3vw;
+  font-size: 0.8vw;
+}
+
+#text3 {
+  position: relative;
+  right: 0.1vw;
+  font-size: 0.6vw;
+}
+
+#text4 {
+  font-size: 0.8vw;
+}
+
+#text5 {
+  font-size: 0.8vw;
+}
+
+#text5 {
+  font-size: 0.8vw;
+}
+
+#text6 {
+  font-size: 0.8vw;
+}
+
+#text7 {
+  font-size: 0.8vw;
+}
+
+#text8 {
+  font-size: 0.8vw;
+}
+
+#text9 {
+  font-size: 0.8vw;
+}
 
 
-      
+
 #text11 {
   display: none;
   font-size: 0.8vw;
@@ -322,6 +334,7 @@
   font-size: 0.8vw;
 
 }
+
 #text {
   display: none;
 }

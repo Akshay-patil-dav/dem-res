@@ -1,38 +1,65 @@
-<div class="icons_fx">
-    <input type="checkbox" 
-    id="switch" 
-    class="checkbox" />
-    
-<label for="switch" class="toggle">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Custom Select Without Arrow</title>
+  <style>
+    /* Remove default arrow in WebKit browsers (Chrome, Safari, etc.) */
+    select {
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      appearance: none;
+      background-color: transparent;
+      border: 1px solid #ccc;
+      padding: 0rem;
+      font-size: 2vw;
+      width: 5vw;
+      border: 0.1vw;
+    }
 
-</label>
-   </div>
-<style>
-    
-.Box_Color {
-    position: absolute;
-    font-size: 0.9vw;
-    /* bottom: 0; */
-    top: 13vw;
-    left: 1vw;
+    /* Remove arrow for IE and Edge */
+    select::-ms-expand {
+      display: none;
+    }
 
-}
+    /* Optional: Add a custom arrow icon (if needed) */
+    .custom-select {
+      position: relative;
+      width: 15vw;
+      border: 0.1vw;
+    }
 
-.Box_Color2 {
-    position: absolute;
-    font-size: 0.9vw;
-    /* bottom: 0; */
-    top: 18vw;
-    left: 1vw;
+    .custom-select select {
+      width: 100%;
+    }
 
-}
+    /* Optional: Custom down arrow icon */
+    .custom-select::after {
+      content: '';
+      position: absolute;
+      right: 10px;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 0;
+      height: 0;
+      border-left: 6px solid transparent;
+      border-right: 6px solid transparent;
+      border-top: 6px solid #333;
+      pointer-events: none;
+    }
+  </style>
+</head>
+<body>
 
-.Box_Color3 {
-    position: absolute;
-    font-size: 0.9vw;
-    /* bottom: 0; */
-    top: 23vw;
-    left: 1vw;
+  <div class="custom-select">
+    <select>
+      <option value="option1">Option 1</option>
+      <option value="option2">Option 2</option>
+      <option value="option3">Option 3</option>
+      <option value="option4">Option 4</option>
+    </select>
+  </div>
 
-}
-</style>
+</body>
+</html>

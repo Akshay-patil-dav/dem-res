@@ -281,7 +281,7 @@
     
     /* background-color: red; */
     border: 0.1vw solid;
-    height: 2.6vw;
+    height: 2.5vw;
 
     top: 38.2vw;
     left: 15.15vw;
@@ -292,5 +292,6 @@
     height: 2.2vw;
     margin: 0.2vw;
     left: 0.1vw;
+    bottom: 0;
     border: 0.1vw solid;
 }
