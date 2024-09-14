@@ -18,7 +18,7 @@ document.addEventListener('DOMContentLoaded', () => {
         isDrawingModeActive = e.target.checked;
 
         if (isDrawingModeActive) {
-            myUniqueCanvas.style.zIndex = '8';
+            myUniqueCanvas.style.zIndex = '90';
             myUniqueCanvas.style.pointerEvents = 'auto';
         } else {
             myUniqueCanvas.style.zIndex = '0';

@@ -75,10 +75,10 @@ function redrawArrows() {
     arrows.forEach(arrow => {
         // Adjust arrows' coordinates if needed
         drawArrowOnCanvas(arrow.startX * (arrowCanvas.width / window.innerWidth),
-                          arrow.startY * (arrowCanvas.height / window.innerHeight),
-                          arrow.endX * (arrowCanvas.width / window.innerWidth),
-                          arrow.endY * (arrowCanvas.height / window.innerHeight),
-                          arrow.color);
+            arrow.startY * (arrowCanvas.height / window.innerHeight),
+            arrow.endX * (arrowCanvas.width / window.innerWidth),
+            arrow.endY * (arrowCanvas.height / window.innerHeight),
+            arrow.color);
     });
 }
 
@@ -99,10 +99,10 @@ function draw(e) {
     // Draw all existing arrows
     arrows.forEach(arrow => {
         drawArrowOnCanvas(arrow.startX * (arrowCanvas.width / window.innerWidth),
-                          arrow.startY * (arrowCanvas.height / window.innerHeight),
-                          arrow.endX * (arrowCanvas.width / window.innerWidth),
-                          arrow.endY * (arrowCanvas.height / window.innerHeight),
-                          arrow.color);
+            arrow.startY * (arrowCanvas.height / window.innerHeight),
+            arrow.endX * (arrowCanvas.width / window.innerWidth),
+            arrow.endY * (arrowCanvas.height / window.innerHeight),
+            arrow.color);
     });
 
     // Draw the current arrow being drawn
@@ -114,11 +114,13 @@ function stopDrawing(e) {
     isDrawing = false;
 
     // Save the arrow coordinates and color
-    arrows.push({ startX: startX / (arrowCanvas.width / window.innerWidth),
-                  startY: startY / (arrowCanvas.height / window.innerHeight),
-                  endX: e.clientX / (arrowCanvas.width / window.innerWidth),
-                  endY: e.clientY / (arrowCanvas.height / window.innerHeight),
-                  color: arrowColor });
+    arrows.push({
+        startX: startX / (arrowCanvas.width / window.innerWidth),
+        startY: startY / (arrowCanvas.height / window.innerHeight),
+        endX: e.clientX / (arrowCanvas.width / window.innerWidth),
+        endY: e.clientY / (arrowCanvas.height / window.innerHeight),
+        color: arrowColor
+    });
 }
 
 function drawArrowOnCanvas(x1, y1, x2, y2, color) {
@@ -151,10 +153,10 @@ function undoArrow() {
     // Redraw the remaining arrows
     arrows.forEach(arrow => {
         drawArrowOnCanvas(arrow.startX * (arrowCanvas.width / window.innerWidth),
-                          arrow.startY * (arrowCanvas.height / window.innerHeight),
-                          arrow.endX * (arrowCanvas.width / window.innerWidth),
-                          arrow.endY * (arrowCanvas.height / window.innerHeight),
-                          arrow.color);
+            arrow.startY * (arrowCanvas.height / window.innerHeight),
+            arrow.endX * (arrowCanvas.width / window.innerWidth),
+            arrow.endY * (arrowCanvas.height / window.innerHeight),
+            arrow.color);
     });
 }
 

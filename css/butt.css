@@ -1,54 +1,78 @@
-body{
+#user_info {
     position: absolute;
-    width: 100vw;
-    height: 100vw;
-}
-.top-ch{
-    display: flex;
-    gap: 0.5cm;
-    /* margin: 2px; */
+    background-color: rgb(204, 204, 204);
+    border: 0vw solid;
+    height: 2vw;
+    width: 40vw;
+    cursor: pointer;
+    right: 0;
+    top: 1vw;
 }
 
-.butt{
-    width: 2cm;
-    height: 1cm;
-   background-color: rgb(255, 255, 255);
-   /* color: white; */
-   position: relative;
-   top: 10px;
-   font-family: Arial black;
-   /* border-radius: 10px; */
-   /* left: 3cm; */
-   /* border: 0px solid; */
-   font-size: 0.4cm  ;
-   /* border-style: dotted; */
+.butt {
+    position: absolute;
+    width: 5vw;
+    height: 2vw;
+    background-color: rgb(255, 255, 255);
+    /* color: white; */
+
+    font-family: Arial black;
+    font-size: 0.8vw;
+    border: 0.2vw solid;
+    /* border-style: dotted; */
+    top: 5.5vw;
+    left: 15vw;
+    border-color: black;
 }
-.butt:hover{
+
+.butt:hover {
     background-color: rgb(226, 226, 226);
 }
 
 
 
 
-.butt2{
-    width: 1cm;
-    height: 1cm;
-   background-color: rgb(255, 255, 255);
-   /* color: white; */
-   position: relative;
-   top: 10px;
-   font-family: Arial black;
-   /* border-radius: 20px; */
-   /* left: 3.2cm; */
-   border: 1px solid;
-   font-size: 0.3cm   
+.butt2 {
+    position: absolute;
+    width: 3vw;
+    height: 2vw;
+    background-color: rgb(255, 255, 255);
+    /* color: white; */
+    font-family: Arial black;
+    font-size: 0.8vw;
+    border: 0.2vw solid;
+    top: 5.5vw;
+    left: 20.8vw;
+    /* border-style: dotted; */
 }
-.butt2:hover{
+
+.butt2:hover {
     background-color: rgb(207, 207, 207);
 }
 
 
-.pen-img{
+
+.butt3 {
+    position: absolute;
+    width: 3vw;
+    height: 2vw;
+    background-color: rgb(255, 255, 255);
+    /* color: white; */
+    font-family: Arial black;
+    font-size: 1vw;
+    border: 0.2vw solid;
+    /* top: 5.5vw; */
+    bottom: 3vw;
+    /* left: 20.8vw; */
+    right: 5vw;
+    /* border-style: dotted; */
+}
+
+.butt3:hover {
+    background-color: rgb(207, 207, 207);
+}
+
+.pen-img {
     /* padding: cm; */
     /* margin: 5px; */
 
@@ -61,17 +85,17 @@ body{
     top: 8px;
     color: white;
     border: 0px solid;
-    background-color: rgb(15, 106, 190); 
+    background-color: rgb(15, 106, 190);
     z-index: 100;
 }
 
-.pen-img:hover{ 
+.pen-img:hover {
     background-color: rgb(49, 66, 161);
 }
 
 
 
-#clear2{
+#clear2 {
     position: absolute;
     border: 1px solid;
     background-color: white;
@@ -79,7 +103,13 @@ body{
     margin-left: 13cm;
     margin-top: -2cm;
 }
-.pen-img3{
+
+#val11{
+    border: 0.1vw solid;
+    border-color: black;
+}
+
+.pen-img3 {
     /* padding: cm; */
     /* margin: 5px; */
 
@@ -92,34 +122,264 @@ body{
     top: 8px;
     color: white;
     border: 0px solid;
-    background-color: rgb(37, 192, 23); 
+    background-color: rgb(37, 192, 23);
     z-index: 100;
 }
 
-.pen-img3:hover{ 
+.pen-img3:hover {
     background-color: rgb(49, 66, 161);
 }
 
 
-.pen-img4{
+.pen-img4 {
     /* padding: cm; */
     /* margin: 5px; */
 
-    margin-left: 0.2cm;
+    /* margin-left: 0.2cm; */
     /* border-radius: 10px; */
-    width: 1cm;
-    height: 1cm;
-    position: relative;
+    width: 2vw;
+    font-size: 1vw;
+    height: 2vw;
+    position: absolute;
     /* font-family: Arial black; */
-    top: 8px;
+    /* top: 8px; */
     /* color: white; */
-    border: 1px solid;
-    background-color: rgb(255, 255, 255); 
+    border: 0.1vw solid;
+    background-color: rgb(255, 255, 255);
     z-index: 100;
+    left: 3.3vw;
+    right: 0vw;
+    bottom: 0.2vw;
+    /* left: 2vw; */
 }
 
-.pen-img4:hover{ 
+.pen-img4:hover {
     background-color: rgb(238, 238, 238);
 }
 
 
+
+
+
+
+.full_name_fx{
+    position: absolute;
+    right: 15vw;
+    top: 1.9vw;
+}
+
+ /* toggle in label designing */
+ .toggle_1 {
+    position : absolute ;
+    /* display : inline-block; */
+    width : 2.5vw;
+    height : 1.2vw;
+    background-color: rgb(231, 231, 231);
+    border-radius: 30vw;
+    border: 0vw solid ;
+    cursor: pointer;
+
+}
+      
+/* After slide changes */
+.toggle_1:after {
+    content: '';
+    position: absolute;
+    width: 1vw;
+    height: 1vw;
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255);
+    top: 0.1vw; 
+    left: 0.1vw;
+    transition:  all 0.5s;
+    cursor: pointer;
+    border: 0vw solid;
+}
+      
+
+      
+/* Checkbox checked effect */
+.checkbox_1:checked + .toggle_1::after {
+    left : 1.4vw; 
+}
+      
+/* Checkbox checked toggle label bg color */
+.checkbox_1:checked + .toggle_1 {
+    background-color: rgb(161, 161, 161);
+}
+      
+/* Checkbox vanished */
+.checkbox_1 { 
+    display : none;
+}
+
+
+
+
+/* *************** */
+
+.icons_fx{
+    position: absolute;
+    right: 7vw;
+    top: 1.9vw;
+    /* left: 5vw; */
+}
+
+ /* toggle in label designing */
+ .toggle {
+    position : absolute ;
+    /* display : inline-block; */
+    width : 2.5vw;
+    height : 1.2vw;
+    background-color: rgb(231, 231, 231);
+    border-radius: 30vw;
+    border: 0vw solid ;
+    cursor: pointer;
+
+}
+      
+/* After slide changes */
+.toggle:after {
+    content: '';
+    position: absolute;
+    width: 1vw;
+    height: 1vw;
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255);
+    top: 0.1vw; 
+    left: 0.1vw;
+    transition:  all 0.5s;
+    cursor: pointer;
+    border: 0vw solid;
+}
+      
+
+      
+/* Checkbox checked effect */
+.checkbox:checked + .toggle::after {
+    left : 1.4vw; 
+}
+      
+/* Checkbox checked toggle label bg color */
+.checkbox:checked + .toggle {
+    background-color: rgb(161, 161, 161);
+}
+      
+/* Checkbox vanished */
+.checkbox { 
+    display : none;
+}
+
+
+
+
+
+
+
+/* *************************pen_swi___****************************************** */
+
+.Pen_sw_fx{
+    position: absolute;
+    right: 5.5vw;
+    top: 0.4vw;
+    z-index: 100;
+}
+
+ /* toggle in label designing */
+ .toggle_pen {
+    position : absolute ;
+    /* display : inline-block; */
+    width : 3.2vw;
+    height : 1.7vw;
+    background-color: rgb(231, 231, 231);
+    border-radius: 30vw;
+    border: 0vw solid ;
+    cursor: pointer;
+
+}
+      
+/* After slide changes */
+.toggle_pen:after {
+    content: '';
+    position: absolute;
+    width: 1.4vw;
+    height: 1.4vw;
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255);
+    top: 0.1vw; 
+    left: 0.1vw;
+    transition:  all 0.5s;
+    cursor: pointer;
+    border: 0vw solid;
+}
+      
+
+      
+/* Checkbox checked effect */
+.checkbox_pen:checked + .toggle_pen::after {
+    left : 1.6vw; 
+}
+      
+/* Checkbox checked toggle label bg color */
+.checkbox_pen:checked + .toggle_pen {
+    background-color: rgb(161, 161, 161);
+}
+      
+/* Checkbox vanished */
+.checkbox_pen { 
+    display : none;
+}
+
+/* *************************pen_swi___****************************************** */
+
+.Arrow_sw_fx{
+    position: absolute;
+    right: 5.5vw;
+    z-index: 100;
+    top: 0.4vw;
+}
+
+ /* toggle in label designing */
+ .toggle_Arrow {
+    position : absolute ;
+    /* display : inline-block; */
+    width : 3.2vw;
+    height : 1.7vw;
+    background-color: rgb(231, 231, 231);
+    border-radius: 30vw;
+    border: 0vw solid ;
+    cursor: pointer;
+
+}
+      
+/* After slide changes */
+.toggle_Arrow:after {
+    content: '';
+    position: absolute;
+    width: 1.4vw;
+    height: 1.4vw;
+    border-radius: 100%;
+    background-color: rgb(255, 255, 255);
+    top: 0.1vw; 
+    left: 0.1vw;
+    transition:  all 0.5s;
+    cursor: pointer;
+    border: 0vw solid;
+}
+      
+
+      
+/* Checkbox checked effect */
+.checkbox_Arrow:checked + .toggle_Arrow::after {
+    left : 1.6vw; 
+}
+      
+/* Checkbox checked toggle label bg color */
+.checkbox_Arrow:checked + .toggle_Arrow {
+    background-color: rgb(161, 161, 161);
+}
+      
+/* Checkbox vanished */
+.checkbox_Arrow { 
+    display : none;
+}
