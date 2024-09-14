@@ -29,7 +29,7 @@
       document.getElementById('phone').innerHTML = val;
     }
   </script>
- 
+
   <nav id="nav">
     <div>
 
@@ -238,24 +238,21 @@
         <div style="display: flex; gap: 1cm;" id="planetsbox">
           <b class="lp" id="plant">Planets</b>
 
-          <style>
-            .form-switch .form-check-input:checked {
-              background-color: rgb(206, 206, 206);
 
-            }
-          </style>
           <div class="form-check ">
-            
-           <div class="full_name_fx">
-            <input type="checkbox" 
-            id="switch_1" 
-            class="checkbox_1" />
-            
-     <label for="switch_1" class="toggle_1">
-       
-     </label>
-           </div>
-            
+
+            <div class="full_name_fx">
+
+
+              <input type="checkbox" id="Textshort" class="checkbox_1" />
+
+              <label for="Textshort" class="toggle_1">
+
+              </label>
+
+
+            </div>
+
             <label for="" id="namemm">Full Name</label>
             <!-- <input class="form-check-input " type="checkbox" role="switch" id="flexSwitchCheckDefault" checked> -->
           </div>
@@ -263,16 +260,20 @@
 
           <div class="form-check ">
 
-           <div class="icons_fx">
-            <input type="checkbox" 
-            id="switch" 
+            <div class="icons_fx">
+              <!-- <input type="checkbox" 
+            id="iconsss" 
             class="checkbox" />
             
-     <label for="switch" class="toggle">
+     <label for="iconsss" class="toggle">
        
-     </label>
-           </div>
+     </label> -->
 
+              <input type="checkbox" id="iconsss" class="checkbox">
+
+              <!-- Label for custom toggle -->
+              <label for="iconsss" class="toggle"></label>
+            </div>
 
 
             <label for="" id="icons"> Icons</label>
@@ -347,7 +348,7 @@
 
                   <div id="tex3">
                     <div id="text3">Mercury</div>
-                    <div id="text33">Mer</div>
+                    <div id="text33">Me</div>
                   </div>
                 </div>
               </td>
@@ -364,7 +365,7 @@
 
                   <div id="tex4">
                     <div id="text4">venus</div>
-                    <div id="text44">ven</div>
+                    <div id="text44">ve</div>
                   </div>
                 </div>
 
@@ -384,7 +385,7 @@
                   </div>
                   <div id="tex5">
                     <div id="text5">Mars</div>
-                    <div id="text55">Mar</div>
+                    <div id="text55">Ma</div>
                   </div>
                 </div>
               </td>
@@ -406,7 +407,7 @@
                   </div>
                   <div id="tex6">
                     <div id="text6">Jupiter</div>
-                    <div id="text66">Jup</div>
+                    <div id="text66" >Ju</div>
                   </div>
                 </div>
               </td>
@@ -426,7 +427,7 @@
                   </div>
                   <div id="tex7">
                     <div id="text7">Saturn</div>
-                    <div id="text77">Sat</div>
+                    <div id="text77">Sa</div>
                   </div>
                 </div>
               </td>
@@ -446,7 +447,7 @@
                   </div>
                   <div id="tex8">
                     <div id="text8">Rahu</div>
-                    <div id="text88">Rah</div>
+                    <div id="text88">Ra</div>
                   </div>
                 </div>
               </td>
@@ -466,7 +467,7 @@
                   </div>
                   <div id="tex9">
                     <div id="text9">Ketu</div>
-                    <div id="text99">Ket</div>
+                    <div id="text99">Ke</div>
                   </div>
                 </div>
               </td>
@@ -484,13 +485,13 @@
     <div class="">
       <label for=""><b id="colorbox">Color </b></label>
       <div class="color-palette">
-      
-            <div class="color-swatch" id="drop_color1" style="background-color: rgb(255, 123, 123);" draggable="true"></div>
-            <div class="color-swatch" id="drop_color2" style="background-color: rgb(132, 255, 132);" draggable="true"></div>
-            <div class="color-swatch" id="drop_color3" style="background-color: rgb(255, 255, 136);" draggable="true"></div>
-            <div class="color-swatch" id="drop_color4" style="background-color: ; " draggable="true"></div>
 
-          
+        <div class="color-swatch" id="drop_color1" style="background-color: rgb(255, 123, 123);" draggable="true"></div>
+        <div class="color-swatch" id="drop_color2" style="background-color: rgb(132, 255, 132);" draggable="true"></div>
+        <div class="color-swatch" id="drop_color3" style="background-color: rgb(255, 255, 136);" draggable="true"></div>
+        <div class="color-swatch" id="drop_color4" style="background-color: ; " draggable="true"></div>
+
+
       </div>
     </div>
 
@@ -517,21 +518,19 @@
 
 
               <div class="Pen_sw_fx">
-                <input type="checkbox" 
-                id="startDrawing" 
-                class="checkbox_pen" />
-                
-         <label for="startDrawing" class="toggle_pen">
-           
-         </label>
-               </div>
+                <input type="checkbox" id="startDrawing" class="checkbox_pen" />
+
+                <label for="startDrawing" class="toggle_pen">
+
+                </label>
+              </div>
             </td>
             <td>
 
 
               <button class="pen-img4" id="removedr" style="" onclick="penremove" draggable="true">🗑️</button>
             </td>
-          
+
           </tr>
         </table>
         <!-- <input type="color" class="colorboxinput" value="#000000" id="colorPicker" style="z-index: 100;"> -->
@@ -556,21 +555,18 @@
         <span class="slider round"></span>
 
       </label> -->
-      
+
       <div class="Arrow_sw_fx">
-        
-        <input type="checkbox" 
-        id="toggleArrowButton" 
-        class="checkbox_Arrow" />
-        
- <label for="toggleArrowButton" class="toggle_Arrow">
-    <!-- <span class="slider round"></span> -->
- </label>
-       </div>
+        <input type="checkbox" id="toggleArrowButton" class="checkbox_Arrow" />
+
+        <label for="toggleArrowButton" class="toggle_Arrow">
+          <!-- <span class="slider round"></span> -->
+        </label>
+      </div>
 
 
-      
-      
+
+
 
       <!-- <button class="pen-img4" id="clearArrowsBtn" fdprocessedid="nl5isj" style="z-index: 100;"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash3" viewBox="0 0 16 16">
     <path d="M6.5 1h3a.5.5 0 0 1 .5.5v1H6v-1a.5.5 0 0 1 .5-.5M11 2.5v-1A1.5 1.5 0 0 0 9.5 0h-3A1.5 1.5 0 0 0 5 1.5v1H1.5a.5.5 0 0 0 0 1h.538l.853 10.66A2 2 0 0 0 4.885 16h6.23a2 2 0 0 0 1.994-1.84l.853-10.66h.538a.5.5 0 0 0 0-1zm1.958 1-.846 10.58a1 1 0 0 1-.997.92h-6.23a1 1 0 0 1-.997-.92L3.042 3.5zm-7.487 1a.5.5 0 0 1 .528.47l.5 8.5a.5.5 0 0 1-.998.06L5 5.03a.5.5 0 0 1 .47-.53Zm5.058 0a.5.5 0 0 1 .47.53l-.5 8.5a.5.5 0 1 1-.998-.06l.5-8.5a.5.5 0 0 1 .528-.47M8 4.5a.5.5 0 0 1 .5.5v8.5a.5.5 0 0 1-1 0V5a.5.5 0 0 1 .5-.5"/>
@@ -656,32 +652,46 @@
         <!-- ***************************************************** -->
         <h5 class="Box_Color " id="box"> Body <br>
           Background </h5>
-        <button class="color colbox6" style="background-color: red;"          value="red"     onclick="backgroundcolor(this.value)"></button>
-        <button class="color colbox7" style="background-color: rgb(0, 0, 0);"     value="rgb(0, 0, 0)" onclick="backgroundcolor(this.value)"></button>
-        <button class="color colbox8" style="background-color: rgb(22, 224, 15);" value="rgb(22, 224, 15)"   onclick="backgroundcolor(this.value)"></button>
-        <button class="color colbox9" style="background-color: rgb(17, 67, 175);" value="rgb(17, 67, 175)"   onclick="backgroundcolor(this.value)"></button>
-        <button class="color colbox10" style="background-color:rgb(68, 7, 109);"  value="rgb(68, 7, 109)"   onclick="backgroundcolor(this.value)"></button>
+        <button class="color colbox6" style="background-color: red;" value="red"
+          onclick="backgroundcolor(this.value)"></button>
+        <button class="color colbox7" style="background-color: rgb(0, 0, 0);" value="rgb(0, 0, 0)"
+          onclick="backgroundcolor(this.value)"></button>
+        <button class="color colbox8" style="background-color: rgb(22, 224, 15);" value="rgb(22, 224, 15)"
+          onclick="backgroundcolor(this.value)"></button>
+        <button class="color colbox9" style="background-color: rgb(17, 67, 175);" value="rgb(17, 67, 175)"
+          onclick="backgroundcolor(this.value)"></button>
+        <button class="color colbox10" style="background-color:rgb(68, 7, 109);" value="rgb(68, 7, 109)"
+          onclick="backgroundcolor(this.value)"></button>
 
 
-        <h5 class="Box_Color2 " id="box2"> 
+        <h5 class="Box_Color2 " id="box2">
           Body <br>
-          Font Color  </h5>
-        <button class="color colbox11" style="background-color: red;"          value="red"       onclick="f1(this.value)"></button>
-        <button class="color colbox12" style="background-color: rgb(0, 0, 0);"     value="rgb(0, 0, 0)"   onclick="f1(this.value)"></button>
-        <button class="color colbox13" style="background-color: rgb(22, 224, 15);" value="rgb(22, 224, 15)"     onclick="f1(this.value)"></button>
-        <button class="color colbox14" style="background-color: rgb(17, 67, 175);" value="rgb(17, 67, 175)"    onclick="f1(this.value)"></button>
-        <button class="color colbox15" style="background-color:rgb(68, 7, 109);"  value="rgb(68, 7, 109)"     onclick="f1(this.value)"></button>
+          Font Color </h5>
+        <button class="color colbox11" style="background-color: red;" value="red" onclick="f1(this.value)"></button>
+        <button class="color colbox12" style="background-color: rgb(0, 0, 0);" value="rgb(0, 0, 0)"
+          onclick="f1(this.value)"></button>
+        <button class="color colbox13" style="background-color: rgb(22, 224, 15);" value="rgb(22, 224, 15)"
+          onclick="f1(this.value)"></button>
+        <button class="color colbox14" style="background-color: rgb(17, 67, 175);" value="rgb(17, 67, 175)"
+          onclick="f1(this.value)"></button>
+        <button class="color colbox15" style="background-color:rgb(68, 7, 109);" value="rgb(68, 7, 109)"
+          onclick="f1(this.value)"></button>
 
 
-        <h5 class="Box_Color3 " id="box3"> 
+        <h5 class="Box_Color3 " id="box3">
           Header <br>
           Background
-           </h5>
-        <button class="color colbox16" style="background-color: red;"          value="red"                      onclick="headerbackground(this.value)"></button>
-        <button class="color colbox17" style="background-color: rgb(0, 0, 0);"     value="rgb(0, 0, 0)"         onclick="headerbackground(this.value)"></button>
-        <button class="color colbox18" style="background-color: rgb(22, 224, 15);" value="rgb(22, 224, 15)"     onclick="headerbackground(this.value)"></button>
-        <button class="color colbox19" style="background-color: rgb(17, 67, 175);" value="rgb(17, 67, 175)"     onclick="headerbackground(this.value)"></button>
-        <button class="color colbox20" style="background-color:rgb(68, 7, 109);"  value="rgb(68, 7, 109)"       onclick="headerbackground(this.value)"></button>
+        </h5>
+        <button class="color colbox16" style="background-color: red;" value="red"
+          onclick="headerbackground(this.value)"></button>
+        <button class="color colbox17" style="background-color: rgb(0, 0, 0);" value="rgb(0, 0, 0)"
+          onclick="headerbackground(this.value)"></button>
+        <button class="color colbox18" style="background-color: rgb(22, 224, 15);" value="rgb(22, 224, 15)"
+          onclick="headerbackground(this.value)"></button>
+        <button class="color colbox19" style="background-color: rgb(17, 67, 175);" value="rgb(17, 67, 175)"
+          onclick="headerbackground(this.value)"></button>
+        <button class="color colbox20" style="background-color:rgb(68, 7, 109);" value="rgb(68, 7, 109)"
+          onclick="headerbackground(this.value)"></button>
 
         <!-- **************************************************************************** -->
         <button class="saave-bution-popup1" id="sav" onclick="popup3_close()">Save</button>
@@ -713,6 +723,8 @@
   <script src="./js/drack.js"></script>
   <script src="./js/chart-select.js"></script>
   <script src="./js/chart.js"></script>
+  <script src="./js/chakebuttion.js"></script>
+
 
 </body>
 

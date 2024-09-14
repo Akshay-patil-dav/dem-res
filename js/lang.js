@@ -11,16 +11,16 @@ function LANG(lang) {
         case 'Hin':
             // alert(l1[0])
 
-            // document.getElementById('text11').innerHTML = 'सू';
-            // document.getElementById('text22').innerHTML = 'चंद्र';
-            // document.getElementById('text33').innerHTML = 'बु';
-            // document.getElementById('text44').innerHTML = 'शु';
-            // document.getElementById('text55').innerHTML = 'मं';
-            // document.getElementById('text66').innerHTML = 'बृह';
-            // document.getElementById('text77').innerHTML = 'श';
-            // document.getElementById('text88').innerHTML = 'रा';
-            // document.getElementById('onButton').innerHTML = 'तीर'
-            // document.getElementById('text99').innerHTML = 'के';
+            document.getElementById('text11').innerHTML = 'सू';
+            document.getElementById('text22').innerHTML = 'चंद्र';
+            document.getElementById('text33').innerHTML = 'बु';
+            document.getElementById('text44').innerHTML = 'शु';
+            document.getElementById('text55').innerHTML = 'मं';
+            document.getElementById('text66').innerHTML = 'बृह';
+            document.getElementById('text77').innerHTML = 'श';
+            document.getElementById('text88').innerHTML = 'रा';
+            document.getElementById('onButton').innerHTML = 'तीर'
+            document.getElementById('text99').innerHTML = 'के';
             // document.getElementById('chartlagn').style.display = 'none'
              document.getElementById('plant').innerHTML = 'ग्रहों'
              document.getElementById('colorbox').innerHTML = 'रंग';
@@ -262,48 +262,61 @@ document.getElementById('flexSwitchCheckDefault').addEventListener('change', fun
 
 });
 
+    // // Select the checkbox input element
+    // const toggleCheckbox = document.getElementById('fullnamehide');
+
+    // // Add an event listener for when the checkbox is toggled
+    // toggleCheckbox.addEventListener('checked', function() {
+    //     if (toggleCheckbox.checked) {
+    //         alert("Switch is ON");
+    //     } else {
+    //         alert("Switch is OFF");
+    //     }
+    // });
 
 
 
-document.getElementById('iconss').addEventListener('change', function () {
+
+document.getElementById('fullnamehide').addEventListener( 'checked' ,function () {
     if (this.checked) {
 
+        alert("weskj");
 
         // <style>  #tex{position: relative;top: 0.7cm;}</style>
 
         // document.getElementById('tex').innerHTML = "<style>#tex{background-color: rgb(255, 255, 255); width: 1.1cm;}</style>"
 
-        document.getElementById('pl').innerHTML = "<style>#pl{display: none;}</style>"
+        // document.getElementById('pl').innerHTML = "<style>#pl{display: none;}</style>"
 
-        document.getElementById('pall1').style.display = 'block'
-        document.getElementById('pall1').style.display = 'block'
-        document.getElementById('pall2').style.display = 'block'
-        document.getElementById('pall3').style.display = 'block'
-        document.getElementById('pall4').style.display = 'block'
-        document.getElementById('pall5').style.display = 'block'
-        document.getElementById('pall6').style.display = 'block'
-        document.getElementById('pall7').style.display = 'block'
-        document.getElementById('pall8').style.display = 'block'
-        document.getElementById('pall9').style.display = 'block'
+        // document.getElementById('pall1').style.display = 'block'
+        // document.getElementById('pall1').style.display = 'block'
+        // document.getElementById('pall2').style.display = 'block'
+        // document.getElementById('pall3').style.display = 'block'
+        // document.getElementById('pall4').style.display = 'block'
+        // document.getElementById('pall5').style.display = 'block'
+        // document.getElementById('pall6').style.display = 'block'
+        // document.getElementById('pall7').style.display = 'block'
+        // document.getElementById('pall8').style.display = 'block'
+        // document.getElementById('pall9').style.display = 'block'
 
 
         // document.getElementById('text1').innerHTML = "<style> #tex{position: relative;top: 0.7cm;}</style>"
     } else {
 
-        document.getElementById('pl').innerHTML = "<style>#pl{display: block;}</style>"
+        // document.getElementById('pl').innerHTML = "<style>#pl{display: block;}</style>"
 
         // document.getElementById('pall1').style.display = 'none'
 
 
-        document.getElementById('pall1').style.display = 'none'
-        document.getElementById('pall2').style.display = 'none'
-        document.getElementById('pall3').style.display = 'none'
-        document.getElementById('pall4').style.display = 'none'
-        document.getElementById('pall5').style.display = 'none'
-        document.getElementById('pall6').style.display = 'none'
-        document.getElementById('pall7').style.display = 'none'
-        document.getElementById('pall8').style.display = 'none'
-        document.getElementById('pall9').style.display = 'none'
+        // document.getElementById('pall1').style.display = 'none'
+        // document.getElementById('pall2').style.display = 'none'
+        // document.getElementById('pall3').style.display = 'none'
+        // document.getElementById('pall4').style.display = 'none'
+        // document.getElementById('pall5').style.display = 'none'
+        // document.getElementById('pall6').style.display = 'none'
+        // document.getElementById('pall7').style.display = 'none'
+        // document.getElementById('pall8').style.display = 'none'
+        // document.getElementById('pall9').style.display = 'none'
         //  document.getElementById('tex').innerHTML = "<style> #tex{position: relative;top: 0cm;}</style>"
         // document.getElementById('tex').innerHTML = "<style>#tex{background-color: rgb(255, 255, 255); width: 1.1cm;}</style>"
 

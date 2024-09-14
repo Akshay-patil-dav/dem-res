@@ -358,3 +358,18 @@ canvas {
   /* left:   0vw; */
   top: 0.2vw;
 }
+
+#text66 {
+  position: absolute;
+  left:  0.55vw;
+}
+
+#text44{
+  position: absolute;
+  left:  0.4vw; 
+}
+
+#text55{
+  position: absolute;
+  left:  0.3vw; 
+}
